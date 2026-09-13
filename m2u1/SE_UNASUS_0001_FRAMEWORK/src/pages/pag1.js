@@ -32,9 +32,8 @@ export default {
               <span class="badge-eixo">Eixo Transversal</span>
               <!-- TODO: Nome do módulo -->
               <h3 class="modulo-titulo mt-4"></h3>
-              <!-- TODO: Nome e número da unidade -->
-              <h1 class="unidade-numero">Unidade</h1>
-              <h1 class="unidade-subtitulo"></h1>
+              <h1 class="unidade-numero">Unidade 1</h1>
+              <h1 class="unidade-subtitulo">Determinação social, iniquidades e interseccionalidades</h1>
             </div>
             <div class="col-auto banner-imagem">
               <!-- TODO: Nome do módulo -->
@@ -47,15 +46,25 @@ export default {
         <div class="container px-5 py-4">
           <div class="row">
             <div class="col-12">
-              <!-- TODO: Objetivo da unidade -->
               <h4 style="margin-top: 0 !important;">Objetivo geral da Unidade:</h4>
-              <h5></h5>
+              <h5>Promover a determinação social do processo saúde-doença no contexto da privação de liberdade.</h5>
             </div>
           </div>
         </div>
       </section>
       <!-- TODO: conteúdo da página -->
-      <section></section>
+      <section>
+        <div class="container">
+          <!-- TODO: Título da unidade -->
+          <p>Ao iniciar esta unidade, convidamos você a refletir sobre uma questão fundamental para a prática em saúde prisional.</p>
+          <!-- TODO: Reflexion card -->
+          <!-- TODO: Implement split class -->
+          <div class="split">
+            <p>A resposta a essa pergunta é central para a compreensão da saúde das pessoas privadas de liberdade. Embora aspectos biológicos sejam importantes, eles são insuficientes para explicar a distribuição desigual da exposição, do adoecimento, do sofrimento e da morte observada em diferentes grupos populacionais.</p>
+            <p>As condições de vida, trabalho, renda, escolarização, moradia, alimentação, pertencimento racial, gênero, território e acesso a direitos influenciam profundamente as possibilidades de viver com saúde ou adoecer. Nesse sentido, a determinação social da saúde constitui um importante referencial teórico, ético e político para compreender como as desigualdades estruturais produzem iniquidades em saúde (Breilh, 2006; Buss; Pellegrini Filho, 2007).</p>
+          </div>
+        </div>
+      </section>
     </div>
   `
 }

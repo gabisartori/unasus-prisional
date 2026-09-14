@@ -51,9 +51,8 @@ export default {
         </div>
       </section>
       <section>
-        <div class="container">
-          <!-- TODO: Fix this counter starting at 1.1 instead of just 1 -->
-           <ol class="lista-outline" style="--secao: 0;">
+        <div class="container py-5">
+           <ol class="lista-outline" style="--secao: 1;">
               <li>Determinação social da saúde no contexto prisional</li>
           </ol>
           <p>Ao iniciar esta unidade, convidamos você a refletir sobre uma questão fundamental para a prática em saúde prisional.</p>
@@ -97,17 +96,73 @@ export default {
             <p>Ao ampliar o olhar para as condições concretas de vida, para as trajetórias sociais e para o contexto institucional em que as pessoas estão inseridas, torna-se possível compreender que muitos agravos à saúde refletem experiências acumuladas de pobreza, racismo, violência, exclusão social, sofrimento psíquico e privação de direitos.</p>
             <p>O quadro a seguir apresenta exemplos de situações frequentemente encontradas na prática assistencial e ilustra como a perspectiva da determinação social da saúde pode contribuir para análises mais abrangentes, qualificando a tomada de decisão clínica e fortalecendo a construção de estratégias de cuidado integrais, humanizadas e comprometidas com a equidade.</p>
           </div>
-          <!-- TODO: Expandable Table -->
+          <div class="w-80 mx-auto my-4">
+            <img src="src/assets/img/unidade/table-1-1.svg" alt="" class="w-100">
+            <div class="collapse" id="table-1">
+              <img src="src/assets/img/unidade/table-1-2.svg" alt="" class="w-100">
+            </div>
+            <a href="#table-1" data-bs-toggle="collapse" role="button">
+              <img src="src/assets/img/unidade/table-1-3.svg" alt="" class="w-100">
+            </a>
+          </div>
           <p>Ao incorporar essa perspectiva, a clínica amplia a capacidade de identificar vulnerabilidades, reconhecer necessidades de saúde e construir estratégias de cuidado mais efetivas e humanizadas, rompendo com a lógica reducionista de causa-efeito.</p>
-          <!-- TODO: Expandable Table -->
+          <a href="#table-2" role="button" data-bs-toggle="collapse">
+            <img src="src/assets/img/unidade/table-2-1.svg" alt="" class="w-100">
+          </a>
+          <div class="collapse" id="table-2">
+            <img src="src/assets/img/unidade/table-2-2.svg" alt="" class="w-100">
+          </div>
           <p>A análise do caso evidencia que os processos de adoecimento não podem ser compreendidos apenas a partir de fatores biológicos individuais. A determinação social da saúde permite compreender que sofrimento psíquico, hipertensão descompensada, vulnerabilidade social e adoecimento crônico estão diretamente relacionados às desigualdades estruturais, ao racismo, à violência e às condições concretas de vida produzidas pelo encarceramento.</p>
           <p>Nesse contexto, a atuação da equipe de saúde exige uma abordagem centrada na pessoa, com escuta qualificada, construção de vínculo terapêutico, reconhecimento das vulnerabilidades sociais e articulação entre cuidado clínico, saúde mental e defesa de direitos.</p>
           <img src="src/assets/img/unidade/img-6.svg" alt="" class="w-100 my-4">
-          <h2>Encerramento da Unidade</h2>
+          <h3 style="color: #123F68;">Encerramento da Unidade</h3>
           <p>Nesta unidade, discutimos como os processos de saúde, adoecimento e morte das pessoas privadas de liberdade são influenciados por fatores que ultrapassam o campo biológico e individual. Compreendemos que desigualdades sociais, raciais, econômicas e institucionais moldam as condições concretas de vida e produzem distribuições desiguais de riscos, sofrimentos e oportunidades de proteção à saúde.</p>
           <p>Também analisamos como o encarceramento em massa se articula a processos históricos de racismo estrutural, criminalização da pobreza e exclusão social, influenciando diretamente as necessidades de saúde da população prisional.Para a prática profissional, reconhecer a determinação social da saúde significa ampliar o olhar clínico, fortalecer a escuta qualificada, desenvolver abordagens integrais e construir estratégias de cuidado comprometidas com os princípios da equidade, da dignidade humana e do direito à saúde.</p>
           <p>Ao longo da especialização, aprofundaremos a compreensão de como essas desigualdades se expressam no cotidiano das prisões e quais são seus impactos sobre grupos populacionais específicos.</p>
-          <!-- TODO: Referências -->
+          <div class="accordion" id="accordionReferencias">
+            <div class="accordion-item">
+                <h4 class="accordion-header" id="headingReferencias">
+                    <button class="accordion-button card-style--white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#painelReferencias" aria-expanded="false" aria-controls="painelReferencias">
+                        Referências
+                    </button>
+                </h4>
+                <div id="painelReferencias" class="accordion-collapse collapse" aria-labelledby="headingReferencias" data-bs-parent="#accordionReferencias">
+                  <div class="accordion-body">
+                      <div class="accordion-body-p--white referencias">
+                        <p>ALMEIDA, Silvio Luiz de. Racismo estrutural. São Paulo: Pólen, 2019.</p>
+                        <p>AMNISTIA INTERNACIONAL. Relatório Anual 2023/2024. Londres: Anistia Internacional, 2024.</p>
+                        <p>BRASIL. Conselho Nacional de Justiça. Relatório de Inspeção Penal. Brasília: CNJ, 2024.</p>
+                        <p>BRASIL. Constituição da República Federativa do Brasil. Brasília: Senado Federal, 1988. Art. 5º, cap. I (arts. 5º a LXVII).</p>
+                        <p>BRASIL. Departamento Penitenciário Nacional. Levantamento Nacional de Informações Penitenciárias (INFOPEN). Brasília: DEPEN, 2024.</p>
+                        <p>BRASIL. Ministério da Saúde. Política Nacional de Atenção Integral à Saúde das Pessoas Privadas de Liberdade no Sistema Prisional (PNAISP). Brasília: Ministério da Saúde, 2014.</p>
+                        <p>BRASIL. Ministério da Justiça e Segurança Pública. Relatório de Informações Penais – Relipen. Brasília: SENAPPEN, 2023.</p>
+                        <p>BREILH, Jaime. Epidemiologia crítica: ciência emancipadora e interculturalidade. Rio de Janeiro: Fiocruz, 2006.</p>
+                        <p>BUSS, Paulo Marchiori; PELLEGRINI FILHO, Alberto. A saúde e seus determinantes sociais. Physis, Rio de Janeiro, v. 17, n. 1, p. 77-93, 2007.</p>
+                        <p>CRENSHAW, Kimberlé. Demarginalizing the intersection of race and sex. University of Chicago Legal Forum, Chicago, v. 1989, n. 1, p. 139-167, 1989.</p>
+                        <p>DAVIS, Angela. A democracia da abolição para além do império, das prisões e da tortura. Rio de Janeiro: Difel, 2009. </p>
+                        <p>DAVIS, Angela Y. Estarão as prisões obsoletas? Rio de Janeiro: Difel, 2018.</p>
+                        <p>GONZALEZ, Lélia. Por um feminismo afro-latino-americano. Rio de Janeiro: Zahar, 2020.</p>
+                        <p>JAMES, S. et al. Global health care in prisons: a scoping review. The Lancet, London, v. 38, n. 10049, p. 291–304, 2016. </p>
+                        <p>KILOMBA, Grada. Memórias da plantação: episódios de racismo cotidiano. Rio de Janeiro: Cobogó, 2019.</p>
+                        <p>LEWIS, [ilegível]. Direitos humanos de pessoas privadas de liberdade. Belo Horizonte: Fórum, 2019.</p>
+                        <p>MBEMBE, Achille. Necropolítica. São Paulo: n-1 edições, 2018.</p>
+                        <p>MINAYO, Maria Cecília de Souza; RIBEIRO, Adalgisa. Condições de saúde em prisões. Ciência & Saúde Coletiva, Rio de Janeiro, v. 15, n. 1, p. 219–228, 2010.</p>
+                        <p>ORGANIZAÇÃO DAS NAÇÕES UNIDAS (ONU). Regras Mínimas das Nações Unidas para o Tratamento de Presos (Regras de Mandela). Viena: ONU, 2015.</p>
+                        <p>PASTORAL CARCERÁRIA NACIONAL. Relatório anual sobre o sistema prisional brasileiro. São Paulo: Pastoral Carcerária, 2023.</p>
+                        <p>PNUD. Relatório do Desenvolvimento Humano 2023/2024. Nova York: Programa das Nações Unidas para o Desenvolvimento, 2024. </p>
+                        <p>ROCHA, Rosel. Pobreza e desigualdade no Brasil contemporâneo. Serviço Social & Sociedade, São Paulo, n. 140, p. 45–63, 2020. </p>
+                        <p>SARLET, Ingo Wolfgang. A eficácia dos direitos fundamentais. 11. ed. Porto Alegre: Livraria do Advogado, 2018. </p>
+                        <p>SERAFIM, Lucas; TEIXEIRA, Mariana. Desigualdades sociais e pobreza no Brasil. Ciência & Saúde Coletiva, Rio de Janeiro, v. 26, n. 5, p. 2101–2112, 2021.</p>
+                        <p>THE WORLD PRISON BRIEF. World Prison Population List. London: Institute for Crime & Justice Policy Research, 2024. </p>
+                        <p>VARGAS, João H. Costa. The Denial of Antiblackness: Multiracial Redemption and Black Suffering. Minneapolis: University of Minnesota Press, 2018.</p>
+                        <p>WACQUANT, Loïc. As prisões da miséria. Rio de Janeiro: Zahar, 2001. </p>
+                        <p>WACQUANT, Loïc. Punir os pobres: a nova gestão da miséria nos Estados Unidos. Rio de Janeiro: Revan, 2007.</p>
+                        <p>WORLD HEALTH ORGANIZATION (WHO). Prisons and Health. Copenhagen: WHO Regional Office for Europe, 2014.</p>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </div>

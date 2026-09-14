@@ -63,7 +63,15 @@ export default {
             <p>No Brasil, autoras como Carla Akotirene (2019) destacam que a interseccionalidade deve ser compreendida, além da soma de diferentes formas de discriminação, como uma ferramenta analítica capaz de revelar como estruturas de poder se articulam para produzir experiências específicas de exclusão e vulnerabilização.</p>
             <p>Ao incorporar a perspectiva interseccional, os profissionais de saúde ampliam sua capacidade de compreender as singularidades das trajetórias de vida e identificar necessidades frequentemente invisibilizadas por abordagens universalizantes ou aparentemente neutras. Analise o quadro a seguir, e depois reflita sobre as questões sugeridas.</p>
           </div>
-          <!-- TODO: Expandable -->
+          <div class="w-80 mx-auto my-4">
+            <img src="src/assets/img/unidade/table-1-1.svg" alt="" class="w-100">
+            <div class="collapse" id="table-1">
+              <img src="src/assets/img/unidade/table-1-2.svg" alt="" class="w-100">
+            </div>
+            <a href="#table-1" data-bs-toggle="collapse" role="button">
+              <img src="src/assets/img/unidade/table-1-3.svg" alt="" class="w-100">
+            </a>
+          </div>
           <p>Quantas dessas situações podem estar presentes no cotidiano da sua prática profissional sem que sejam imediatamente reconhecidas? De que maneira a incorporação de uma perspectiva interseccional pode contribuir para a construção de planos terapêuticos mais adequados às necessidades das pessoas privadas de liberdade?</p>
           <ol class="lista-outline" style="--secao: 2; --item: 1;">
             <li>Racismo estrutural e saúde</li>
@@ -154,10 +162,56 @@ export default {
             <p>Essa perspectiva possibilita superar uma abordagem estritamente biomédica, deslocando a clínica para uma compreensão ampliada do processo saúde-doença, na qual os determinantes sociais, os marcadores sociais da diferença e as iniquidades em saúde passam a constituir elementos centrais da prática profissional.</p>
           </div>
           <p>Desse modo, a atuação das equipes de saúde no sistema prisional fortalece o compromisso ético e político do SUS com a defesa da vida, da dignidade humana e da equidade.</p>
-          <!-- TODO: Encerramento -->
+          <h3 style="color: #123F68;">Encerramento da Unidade</h3>
           <p>Nesta unidade, você analisou como diferentes marcadores sociais permeiam os processos de saúde, adoecimento e cuidado no sistema prisional. Também refletiu sobre como racismo, sexismo, LGBTfobia, xenofobia, etarismo e capacitismo influenciam o acesso aos serviços de saúde e produzem iniquidades. Foram discutidos os conceitos de interseccionalidade e de iniquidades em saúde e sua relação com o cárcere. </p>
           <p>A interseccionalidade entendida como a sobreposição de vulnerabilidades que multiplicam iniquidades apresenta repercussões no acesso a serviços de saúde, na garantia dos direitos e na integralidade do cuidado equânime e universal. Assim, a perspectiva interseccional amplia a capacidade de compreender as singularidades das trajetórias de vida e fortalece a construção de práticas clínicas mais éticas, inclusivas e comprometidas com a equidade.</p>
           <p>Ao reconhecer que as desigualdades são produzidas socialmente e afetam grupos populacionais de maneira distinta, os profissionais de saúde tornam-se mais capazes de concretizar as seguintes ações: identificar vulnerabilidades, promover cuidado integral e contribuir para a efetivação do direito à saúde das pessoas privadas de liberdade.</p>
+          <div class="accordion" id="accordionReferencias">
+            <div class="accordion-item">
+                <h4 class="accordion-header" id="headingReferencias">
+                    <button class="accordion-button card-style--white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#painelReferencias" aria-expanded="false" aria-controls="painelReferencias">
+                        Referências
+                    </button>
+                </h4>
+                <div id="painelReferencias" class="accordion-collapse collapse" aria-labelledby="headingReferencias" data-bs-parent="#accordionReferencias">
+                  <div class="accordion-body">
+                      <div class="accordion-body-p--white referencias">
+                        <p>AKOTIRENE, Carla. Interseccionalidade. São Paulo: Pólen, 2019.</p>
+                        <p>ALMEIDA, Silvio Luiz de. Racismo estrutural. São Paulo: Pólen, 2019.</p>
+                        <p>ASSUNÇÃO, Waldilena; JUNG, Valdir Florisbal. A Resolução n. 287 do CNJ e os direitos da pessoa indígena no sistema prisional brasileiro. Revista de Criminologias e Políticas Criminais, Belém, v. 5, n. 2, p. 21‐37, 2019. Disponível em: https://pdfs.semanticscholar.org/2f32/8c3a3697d35af227e999800bc7941ed979e6.pdf. Acesso em: 14 ago. 2026;</p>
+                        <p>BENTO, Berenice. Transviad@s: gênero, sexualidade e direitos humanos. Salvador: EDUFBA, 2017.</p>
+                        <p>BRASIL. Fundação Nacional de Saúde. Política Nacional de Atenção à Saúde dos Povos Indígenas. 2. ed. Brasília: Ministério da Saúde, 2002</p>
+                        <p>BRASIL. Ministério da Saúde. Política Nacional de Saúde Integral da População Negra. Brasília: Ministério da Saúde, 2017.</p>
+                        <p>BRASIL. Portaria Interministerial nº 1, de 2 de janeiro de 2014. Institui a Política Nacional de Atenção Integral à Saúde das Pessoas Privadas de Liberdade no Sistema Prisional (PNAISP) no âmbito do Sistema Único de Saúde (SUS). Brasília, DF: Ministério da Saúde/Ministério da Justiça, 2014. Disponível em: https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/prt2436_22_09_2017.html. Acesso em: 1 jul. 2026.</p>
+                        <p>BRASIL. Ministério da Saúde. Política Nacional de Saúde Integral de Lésbicas, Gays, Bissexuais, Travestis e Transexuais. Brasília: Ministério da Saúde, 2013.</p>
+                        <p>BRASIL. Conselho Nacional de Justiça, 2019. Resolução 287, de 25 de junho de 2019. Disponível em: Acesso em: 04 ago 2026.</p>
+                        <p>BREILH, Jaime. Epidemiologia crítica: ciência emancipadora e interculturalidade. Rio de Janeiro: Fiocruz, 2006.</p>
+                        <p>BUSS, Paulo Marchiori; PELLEGRINI FILHO, Alberto. A saúde e seus determinantes sociais. Physis: Revista de Saúde Coletiva, Rio de Janeiro, v. 17, n. 1, p. 77-93, 2007.</p>
+                        <p>BUTLER, Judith. Corpos em aliança e a política das ruas. Rio de Janeiro: Civilização Brasileira, 2018.</p>
+                        <p>CAMPOS, Gastão Wagner de Sousa; AMARAL, Marcia Aparecida do. A clínica ampliada e compartilhada, a gestão democrática e redes de atenção como referenciais teórico-operacionais para a reforma do hospital. Ciência & Saúde Coletiva, Rio de Janeiro, v. 12, n. 4, p. 849-859, jul./ago. 2007. Disponível em: https://www.scielo.br/j/csc/a/NmPK5MRmgpvw6zwzQ865pBS/?format=html&lang=pt. Acesso em: 1 jul. 2026.</p>
+                        <p>COLLINS, Patricia Hill. Pensamento feminista negro: conhecimento, consciência e a política do empoderamento. São Paulo: Boitempo, 2019.</p>
+                        <p>COLLINS, Patricia Hill; BILGE, Sirma. Interseccionalidade. São Paulo: Boitempo, 2021.</p>
+                        <p>CRENSHAW, Kimberlé. Demarginalizing the intersection of race and sex. University of Chicago Legal Forum, Chicago, v. 1989, n. 1, p. 139–167, 1989.</p>
+                        <p>DAVIS, Angela Y. Estarão as prisões obsoletas? Rio de Janeiro: Difel, 2018.</p>
+                        <p>DEPEN. Depen publica levantamento dos povos indígenas custodiados no sistema penitenciário. Disponível em: http://antigo.depen.gov.br/DEPEN/depen-publicalevantamento-dos-povos-indigenas-custodiados-no-sistema-penitenciario. Acesso em: 04 ago 2026.</p>
+                        <p>GARCIA-GROSSMAN, Ilana R. et al. History of Incarceration and Its Association With Geriatric and Chronic Health Outcomes in Older Adulthood. JAMA Netw Open, v. 3, n. 6, 2023.</p>
+                        <p>HOUT, Marie Clarie Van ; KEWLEY, Stephanie ; HILLIS, Alyson. Contemporary transgender health experience and health situation in prisons: A scoping review of extant published literature (2000–2019). International Journal of Transgenderism, v. 21, n. 3, p. 258-306, 2020.</p>
+                        <p>INTERNATIONAL ORGANIZATION FOR MIGRATION (IOM). World Migration Report 2022. Geneva: IOM, 2022.</p>
+                        <p>LE BRETON, David. A sociologia do corpo. Petrópolis: Vozes, 2016.</p>
+                        <p>ORGANIZAÇÃO DAS NAÇÕES UNIDAS (ONU). Convenção sobre os Direitos das Pessoas com Deficiência. Nova York: ONU, 2006.</p>
+                        <p>ORGANIZAÇÃO DAS NAÇÕES UNIDAS (ONU). Regras de Mandela. Brasília: CNJ, 2016.</p>
+                        <p>SILVA, Crithian Teofi lo da; MENEZES, Gustavo Hamilton de Sousa. Indígenas têm suas identidades invisibilizadas nas prisões do Brasil. Disponível em: https:// diplomatique.org.br/indigenas-tem-suas-identidades-invisibilizadas-nas-prisoes-do-brasil/. Acesso em: 04 ago 2026.</p>
+                        <p>SANTOS, Andreia Beatriz Silva dos. Mulheres encarceradas: considerações sobre gênero, feminismos e raça em um cenário específico de atenção à saúde. Revista Feminismos, Salvador, v. 8, n. 1, p. 109-123, jan./abr. 2020.</p>
+                        <p>VENTURA, Deisy; YUJRA, Verónica. Saúde de migrantes e refugiados. In: GIOVANELLA, Lígia et al. Políticas e Sistema de Saúde no Brasil. 2. ed. Rio de Janeiro: Fiocruz, 2019.</p>
+                        <p>WACQUANT, Loïc. Punir os pobres: a nova gestão da miséria nos Estados Unidos. Rio de Janeiro: Revan, 2007.</p>
+                        <p>WERNECK, Jurema. Racismo institucional e saúde da população negra. Saúde e Sociedade, São Paulo, v. 25, n. 3, p. 535-549, 2016.</p>
+                        <p>WILLIAMS, Brie A. et al. Aging in correctional custody: setting a policy agenda for older prisoner health care. American Journal of Public Health, v. 102, n. 8, p. 1475-1481, 2012.</p>
+                        <p>WORLD HEALTH ORGANIZATION. Prisons and Health. Copenhagen: WHO Regional Office for Europe, 2014.</p>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </div>

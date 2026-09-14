@@ -130,8 +130,16 @@ export default {
           </div>
           <p>As condições de vida no sistema prisional influenciam diretamente os processos de saúde, adoecimento e morte. Embora frequentemente analisadas de maneira isolada, questões como superlotação, ventilação inadequada, acesso insuficiente à água, alimentação inadequada, restrição ao banho de sol e condições precárias de higiene estão profundamente inter-relacionadas e produzem impactos cumulativos sobre a saúde física e mental.</p>
           <p>O quadro a seguir apresenta algumas das principais condições de vida observadas no contexto prisional e seus possíveis efeitos sobre a saúde das pessoas privadas de liberdade, destacando elementos que devem ser considerados pelas equipes de saúde na avaliação clínica, no planejamento das ações de cuidado e na defesa do direito à saúde.</p>
-          <!-- TODO: Expandable -->
-          <!-- TODO: Encerramento -->
+          <div class="w-80 mx-auto my-4">
+            <img src="src/assets/img/unidade/table-1-1.svg" alt="" class="w-100">
+            <div class="collapse" id="table-1">
+              <img src="src/assets/img/unidade/table-1-2.svg" alt="" class="w-100">
+            </div>
+            <a href="#table-1" data-bs-toggle="collapse" role="button">
+              <img src="src/assets/img/unidade/table-1-3.svg" alt="" class="w-100">
+            </a>
+          </div>
+          <h3 style="color: #123F68;">Encerramento da Unidade</h3>
           <div class="split">
             <p>Nesta unidade, você analisou como as condições concretas de vida no sistema prisional influenciam diretamente os processos de saúde, adoecimento e morte das pessoas privadas de liberdade. Aspectos como acesso à água potável, alimentação em quantidade e qualidade adequada, higiene, ventilação, iluminação, vestuário, espaço físico, banho de sol, qualidade do sono e segurança institucional mostraram-se elementos centrais para a proteção da saúde e para a garantia da dignidade humana.</p>
             <p>Ao longo do percurso, foi possível compreender que muitas das demandas encontradas no cotidiano das equipes de saúde não podem ser explicadas exclusivamente por fatores biológicos ou comportamentais individuais. Doenças infecciosas, agravos crônicos, sofrimento psíquico, alterações do sono, dores persistentes e dificuldades de adesão ao cuidado frequentemente refletem condições estruturais de vida produzidas ou agravadas pelo encarceramento.</p>
@@ -140,6 +148,53 @@ export default {
           <div class="split">
             <p>Além do cenário onde o cuidado acontece, as condições de vida constituem parte do próprio objeto de trabalho em saúde. Compreender essa realidade amplia a capacidade de interpretar necessidades de saúde, fortalece a atuação interprofissional e reafirma os princípios da integralidade, da equidade e dos direitos humanos que orientam o SUS.</p>
             <p>No contexto prisional, cuidar da saúde implica também reconhecer, registrar e enfrentar as condições que produzem sofrimento, adoecimento e exclusão, contribuindo para a construção de práticas comprometidas com a justiça social e com a defesa incondicional da dignidade humana.</p>
+          </div>
+          <div class="accordion" id="accordionReferencias">
+            <div class="accordion-item">
+                <h4 class="accordion-header" id="headingReferencias">
+                    <button class="accordion-button card-style--white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#painelReferencias" aria-expanded="false" aria-controls="painelReferencias">
+                        Referências
+                    </button>
+                </h4>
+                <div id="painelReferencias" class="accordion-collapse collapse" aria-labelledby="headingReferencias" data-bs-parent="#accordionReferencias">
+                  <div class="accordion-body">
+                      <div class="accordion-body-p--white referencias">
+                        <p>ALMEIDA, Silvio Luiz de. Racismo estrutural. São Paulo: Pólen, 2019.</p>
+                        <p>BRASIL. Lei nº 7.210, de 11 de julho de 1984. Lei de Execução Penal. Brasília, DF, 1984.</p>
+                        <p>BRASIL. Ministério da Saúde. Ministério da Justiça. Política Nacional de Atenção Integral à Saúde das Pessoas Privadas de Liberdade no Sistema Prisional (PNAISP). Brasília: Ministério da Saúde, 2014.</p>
+                        <p>BRASIL. Ministério da Justiça. Levantamento Nacional de Informações Penitenciárias (INFOPEN). Brasília: DEPEN, 2018.</p>
+                        <p>BRASIL. Ministério da Justiça e Segurança Pública. Secretaria Nacional de Políticas Penais (SENAPPEN). Primeiro panorama nacional de acesso à alimentação e à água no sistema prisional brasileiro. Brasília: MJSP, 2024a.</p>
+                        <p>BRASIL. Conselho Nacional de Justiça. Relatório de Inspeção Penal. Brasília: CNJ, 2024b.</p>
+                        <p>BRASIL. Ministério dos Direitos Humanos e da Cidadania. Observatório Nacional dos Direitos Humanos (ONDH). Pessoas privadas de liberdade: acesso à água e à alimentação adequada. 2026. Disponível em: https://observadh.mdh.gov.br/. Acesso em: 10 jul. 2026.</p>
+                        <p>BREILH, Jaime. Epidemiologia crítica: ciência emancipadora e interculturalidade. Rio de Janeiro: Fiocruz, 2006.</p>
+                        <p>BUSS, Paulo Marchiori; PELLEGRINI FILHO, Alberto. A saúde e seus determinantes sociais. Physis: Revista de Saúde Coletiva, Rio de Janeiro, v. 17, n. 1, p. 77-93, 2007.</p>
+                        <p>COLLINS, Patricia Hill. Pensamento feminista negro: conhecimento, consciência e a política do empoderamento. São Paulo: Boitempo, 2019.</p>
+                        <p>CONSELHO NACIONAL DE JUSTIÇA (CNJ). Relatório Inspeções Penais e Dados sobre o Sistema Prisional Brasileiro. Brasília: CNJ, 2024.</p>
+                        <p>CRENSHAW, Kimberlé. Demarginalizing the intersection of race and sex. University of Chicago Legal Forum, Chicago, v. 1989, n. 1, p. 139-167, 1989.</p>
+                        <p>DAVIS, Angela Y. Estarão as prisões obsoletas? Rio de Janeiro: Difel, 2018.</p>
+                        <p>FAZEL, Seena; BAILLARGEON, Jacques. The health of prisoners. The Lancet, London, v. 377, n. 9769, p. 956-965, 2011.</p>
+                        <p>GILMORE, Ruth Wilson. Golden gulag: prisons, surplus, crisis, and opposition in globalizing California. Berkeley: University of California Press, 2007.</p>
+                        <p>LEVWIN, Benyon et al. Direitos humanos de pessoas privadas de liberdade. Belo Horizonte: Fórum, 2019.</p>
+                        <p>KRIEGER, Nancy. Discrimination and health inequities. International Journal of Health Services, Amityville, v. 44, n. 4, p. 643-710, 2014.</p>
+                        <p>MARMOT, Michael. The health gap: the challenge of an unequal world. London: Bloomsbury, 2015.</p>
+                        <p>MBEMBE, Achille. Necropolítica. São Paulo: n-1 edições, 2018.</p>
+                        <p>MEDEIROS, Marianny Moraes; SANTOS, Amuzza Aylla Pereira; OLIVEIRA, Karlayne Reynaux Vieira; SILVA, Jéssica Kelly Alves Machado, SILVA, Nathalya Anastácio dos Santos, ANUNCIAÇÃO, Bárbara Maria Gomes. Panorama das condições de saúde de um presídio feminino do nordeste brasileiro. Rev Pesquisa é Fundamental/Online (Univ Fed Estado Rio J, Online) 2021; 13:1060-1067.</p>
+                        <p>MINAYO, Maria Cecília de Souza. Saúde e sofrimento no cárcere. Ciência & Saúde Coletiva, Rio de Janeiro, v. 15, n. 1, p. 210-220, 2010.</p>
+                        <p>MINAYO, Maria Cecília de Souza; RIBEIRO, Adalgisa Peixoto. Condições de saúde da população privada de liberdade e desafios para o SUS. [S.d.].</p>
+                        <p>ORGANIZAÇÃO DAS NAÇÕES UNIDAS (ONU). Regras Mínimas das Nações Unidas para o Tratamento de Presos (Regras de Mandela). Brasília: CNJ, 2016.</p>
+                        <p>PASTORAL CARCERÁRIA NACIONAL. Relatório sobre condições de encarceramento no Brasil. São Paulo: Pastoral Carcerária, 2023.</p>
+                        <p>SÁNCHEZ, Alexandra et al. Tuberculose nas prisões brasileiras: uma prioridade de saúde pública. Cadernos de Saúde Pública, Rio de Janeiro, v. 36, supl. 1, 2020.</p>
+                        <p>SANTOS, Andreia Beatriz Silva dos. Desencarceramento como política de saúde: por uma prática de saúde abolicionista. Le Monde Diplomatique Brasil, São Paulo, ed. 192, jul. 2023.</p>
+                        <p>SERRA, Renata Moreira et al. Prevalência de doenças crônicas não transmissíveis no sistema prisional: um desafio para a saúde pública. Ciência e Saúde Coletiva, São Paulo, v.27, n.12, p.4475-4484, 2022.</p>
+                        <p>VALENTE, Flávio Luiz Schieck; BURITY, Valéria. Direito humano à alimentação e nutrição adequadas. Brasília: ABRANDH, 2010.</p>
+                        <p>VARGAS, João Costa. The denial of antiblackness: multiracial redemption and black suffering. Minneapolis: University of Minnesota Press, 2018.</p>
+                        <p>WACQUANT, Loïc. Punir os pobres: a nova gestão da miséria nos Estados Unidos. Rio de Janeiro: Revan, 2007.</p>
+                        <p>WILLIAMS, David R.; MOHAMMED, Selina A. Racism and health I: pathways and scientific evidence. American Behavioral Scientist, Thousand Oaks, v. 57, n. 8, p. 1152-1173, 2013.</p>
+                        <p>WORLD HEALTH ORGANIZATION (WHO). Prisons and Health. Copenhagen: WHO Regional Office for Europe, 2014.</p>
+                      </div>
+                  </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

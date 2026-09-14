@@ -1253,3 +1253,11 @@ p {
     margin-top: 0 !important;
     margin-bottom: 0 !important;
 }
+
+a {
+    transition: filter 0.2s;
+}
+
+a:hover {
+    filter: brightness(0.9)
+}

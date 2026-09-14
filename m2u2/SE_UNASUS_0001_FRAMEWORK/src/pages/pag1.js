@@ -127,7 +127,24 @@ export default {
           <p>Pessoas LGBTQIAPN+, migrantes, estrangeiros, pessoas idosas e pessoas com deficiência privadas de liberdade enfrentam desafios específicos relacionados ao acesso aos direitos, às condições de vida e ao cuidado em saúde. </p>
           <p>Embora compartilhem a experiência do encarceramento, suas necessidades de saúde e os riscos a que estão expostas não são homogêneos, sendo atravessados por diferentes formas de discriminação, exclusão social e violência institucional.</p>
           <p>Vamos aprofundar conhecimentos sobre cada uma dessas formas de iniquidade.</p>
-          <!-- TODO: This whole ass section -->
+          <img src="src/assets/img/unidade/label-1.svg" alt="" class="my-3">
+          <img src="src/assets/img/unidade/img-16.svg" alt="">
+          <img src="src/assets/img/unidade/label-2.svg" alt="" class="my-3">
+          <p>No caso das pessoas idosas privadas de liberdade, o envelhecimento ocorre em ambientes marcados por restrições de mobilidade, inadequações estruturais e acesso limitado a recursos de promoção da saúde. </p>
+          <p>Estudos apontam que o encarceramento pode acelerar processos de envelhecimento, agravar doenças crônicas e aumentar perdas funcionais, exigindo abordagens específicas voltadas à preservação da autonomia, da funcionalidade e da qualidade de vida (Williams et al., 2012; Lozano; Martínez, 2021). </p>
+          <p>A Organização Mundial da Saúde (OMS) destaca que o envelhecimento em contextos de privação de liberdade demanda atenção diferenciada por parte dos sistemas de saúde e justiça (WHO, 2014).</p>
+          <img src="src/assets/img/unidade/label-3.svg" alt="" class="my-3">
+          <div class="d-flex">
+            <div class="col">
+              <img src="src/assets/img/unidade/img-1.png" alt="">
+            </div>
+            <div class="col">
+              <p>As pessoas com deficiência privadas de liberdade enfrentam barreiras arquitetônicas, comunicacionais, atitudinais e institucionais que podem limitar sua autonomia e restringir o acesso ao cuidado. </p>
+              <p>A ausência de adaptações razoáveis e de estratégias de acessibilidade compromete a participação plena dessas pessoas nas atividades cotidianas e pode configurar violação de direitos humanos, conforme reconhecido pela Convenção sobre os Direitos das Pessoas com Deficiência (ONU, 2006), assim como a ausência de pessoas habilitadas para realizar a Língua Brasileira de Sinais (Libras) impossibilitam qualquer forma de diálogo entre as pessoas surdas e os trabalhadores e profissionais do sistema prisional.</p>
+            </div>
+          </div>
+          <img src="src/assets/img/unidade/label-4.svg" alt="" class="my-3">
+          <p>Pessoas migrantes e estrangeiras, por sua vez, podem enfrentar dificuldades relacionadas ao idioma, às diferenças culturais, ao afastamento das redes de apoio e ao desconhecimento dos direitos garantidos pelo SUS. Essas barreiras podem dificultar a comunicação clínica, comprometer a adesão terapêutica e ampliar situações de vulnerabilidade social e institucional (IOM, 2022; Ventura; Yujra, 2019).</p>
           <p>Reconhecer cada uma dessas especificidades é fundamental para a construção de práticas clínicas inclusivas, culturalmente sensíveis e comprometidas com a equidade. Para os profissionais de saúde, incorporar uma perspectiva interseccional significa compreender que o cuidado deve ser orientado não apenas pelas condições clínicas apresentadas, mas também pelas experiências sociais e institucionais que moldam as necessidades de saúde de cada pessoa privada de liberdade.</p>
           <ol class="lista-outline" style="--secao: 2; --item: 5;">
             <li>Produção de iniquidades no sistema prisional</li>

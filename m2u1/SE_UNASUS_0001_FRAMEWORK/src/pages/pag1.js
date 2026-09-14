@@ -58,15 +58,15 @@ export default {
           <!-- TODO: Título da unidade -->
           <p>Ao iniciar esta unidade, convidamos você a refletir sobre uma questão fundamental para a prática em saúde prisional.</p>
           <!-- TODO: Reflexion card -->
-          <img src="src/assets/img/unidade/img-1.svg" alt="" class="w-80 mx-auto d-block mt-4">
+          <img src="src/assets/img/unidade/img-1.svg" alt="" class="w-80 mx-auto d-block my-4">
           <!-- TODO: Implement split class -->
           <div class="split">
             <p>A resposta a essa pergunta é central para a compreensão da saúde das pessoas privadas de liberdade. Embora aspectos biológicos sejam importantes, eles são insuficientes para explicar a distribuição desigual da exposição, do adoecimento, do sofrimento e da morte observada em diferentes grupos populacionais.</p>
             <p>As condições de vida, trabalho, renda, escolarização, moradia, alimentação, pertencimento racial, gênero, território e acesso a direitos influenciam profundamente as possibilidades de viver com saúde ou adoecer. Nesse sentido, a determinação social da saúde constitui um importante referencial teórico, ético e político para compreender como as desigualdades estruturais produzem iniquidades em saúde (Breilh, 2006; Buss; Pellegrini Filho, 2007).</p>
           </div>
           <p class="mt-2">Diferentemente das abordagens que compreendem os determinantes sociais como fatores isolados associados ao risco de adoecimento, a perspectiva da determinação social da saúde entende que os processos de saúde, adoecimento e morte são historicamente produzidos pelas formas de organização econômica, política, social e cultural das sociedades. Essa abordagem permite compreender como relações de poder, exploração, racismo, colonialidade, patriarcado e desigualdade moldam as condições concretas de vida das populações e produzem distribuições desiguais de proteção e exposição ao sofrimento (Breilh, 2006). No contexto prisional brasileiro, essas desigualdades assumem contornos particularmente intensos.</p>
-          <img src="src/assets/img/unidade/img-2.svg" alt="" class="mt-4 w-100">
-          <p class="mt-4">Como já destacado, dados nacionais demonstram que a população privada de liberdade é composta majoritariamente por pessoas negras, jovens, pobres e com baixa escolaridade, evidenciando a estreita relação entre desigualdades sociais e encarceramento em massa (Brasil, 2023; Almeida, 2019; Wacquant, 2007).</p>
+          <img src="src/assets/img/unidade/img-2.svg" alt="" class="my-4 w-100">
+          <p>Como já destacado, dados nacionais demonstram que a população privada de liberdade é composta majoritariamente por pessoas negras, jovens, pobres e com baixa escolaridade, evidenciando a estreita relação entre desigualdades sociais e encarceramento em massa (Brasil, 2023; Almeida, 2019; Wacquant, 2007).</p>
           <div class="split">
             <p>Assim, o cárcere não pode ser compreendido apenas como espaço de cumprimento de pena. Trata-se também de um território produtor de necessidades de saúde, onde condições materiais e institucionais influenciam diretamente os processos de adoecimento.</p>
             <p>Superlotação, ventilação imprópria, acesso insuficiente à água, alimentação inadequada, restrição ao banho de sol, violência institucional, ruptura de vínculos familiares e dificuldades de acesso a direitos constituem elementos que impactam diretamente a saúde física e mental das pessoas privadas de liberdade (WHO, 2014).</p>  
@@ -102,7 +102,7 @@ export default {
           <!-- TODO: Expandable Table -->
           <p>A análise do caso evidencia que os processos de adoecimento não podem ser compreendidos apenas a partir de fatores biológicos individuais. A determinação social da saúde permite compreender que sofrimento psíquico, hipertensão descompensada, vulnerabilidade social e adoecimento crônico estão diretamente relacionados às desigualdades estruturais, ao racismo, à violência e às condições concretas de vida produzidas pelo encarceramento.</p>
           <p>Nesse contexto, a atuação da equipe de saúde exige uma abordagem centrada na pessoa, com escuta qualificada, construção de vínculo terapêutico, reconhecimento das vulnerabilidades sociais e articulação entre cuidado clínico, saúde mental e defesa de direitos.</p>
-          <img src="src/asssets/img/unidade/img-6.svg" alt="" class="w-100 my-4">
+          <img src="src/assets/img/unidade/img-6.svg" alt="" class="w-100 my-4">
           <h2>Encerramento da Unidade</h2>
           <p>Nesta unidade, discutimos como os processos de saúde, adoecimento e morte das pessoas privadas de liberdade são influenciados por fatores que ultrapassam o campo biológico e individual. Compreendemos que desigualdades sociais, raciais, econômicas e institucionais moldam as condições concretas de vida e produzem distribuições desiguais de riscos, sofrimentos e oportunidades de proteção à saúde.</p>
           <p>Também analisamos como o encarceramento em massa se articula a processos históricos de racismo estrutural, criminalização da pobreza e exclusão social, influenciando diretamente as necessidades de saúde da população prisional.Para a prática profissional, reconhecer a determinação social da saúde significa ampliar o olhar clínico, fortalecer a escuta qualificada, desenvolver abordagens integrais e construir estratégias de cuidado comprometidas com os princípios da equidade, da dignidade humana e do direito à saúde.</p>

@@ -52,7 +52,9 @@ export default {
       </section>
       <section>
         <div class="container">
-          <!-- TODO: Título -->
+          <ol class="lista-outline" style="--secao: 2; --item: 0;">
+            <li>Interseccionalidades e iniquidades em saúde</li>
+          </ol>
           <p>A análise das condições de saúde das pessoas privadas de liberdade exige reconhecer que os processos de adoecimento e cuidado não ocorrem de forma homogênea entre os diferentes grupos populacionais. As desigualdades que influenciam profundamente as experiências de encarceramento e produzem impactos distintos sobre os modos de viver, adoecer, acessar direitos e sobreviver no sistema prisional estão relacionadas a:</p>
           <img class="my-auto w-100" src="src/assets/img/unidade/img-1.svg" alt="">
           <p>Nesse contexto, a interseccionalidade constitui uma importante ferramenta teórica, política e metodológica para compreender como diferentes sistemas de opressão atuam de forma simultânea e articulada (Crenshaw, 1989; Collins; Bilge, 2021). </p>
@@ -63,7 +65,9 @@ export default {
           </div>
           <!-- TODO: Expandable -->
           <p>Quantas dessas situações podem estar presentes no cotidiano da sua prática profissional sem que sejam imediatamente reconhecidas? De que maneira a incorporação de uma perspectiva interseccional pode contribuir para a construção de planos terapêuticos mais adequados às necessidades das pessoas privadas de liberdade?</p>
-          <!-- TODO: Título -->
+          <ol class="lista-outline" style="--secao: 2; --item: 1;">
+            <li>Racismo estrutural e saúde</li>
+          </ol>
           <p>O sistema prisional brasileiro expressa, de modo contundente, os efeitos do racismo estrutural e da seletividade penal. </p>
           <p>A população privada de liberdade é majoritariamente composta por pessoas negras (Brasil, 2026), evidenciando a permanência de mecanismos de controle racial que se originam na escravização, se reconfiguram no pós-abolição sem reparação e se expressam, na contemporaneidade, por meio da criminalização da pobreza e de determinadas políticas de segurança pública.</p>
           <img src="src/assets/img/unidade/img-2.svg" alt="" class="my-4 w-100">
@@ -72,7 +76,9 @@ export default {
             <p>A Política Nacional de Saúde Integral da População Negra (PNSIPN) reconhece o racismo como determinante social da saúde e estabelece diretrizes para o enfrentamento das desigualdades raciais no SUS. No contexto prisional, essa perspectiva é fundamental para compreender as necessidades de saúde da população majoritariamente encarcerada no país (Brasil, 2013).</p>
           </div>
           <p>Para os profissionais de saúde, reconhecer o racismo estrutural implica as seguintes ações: qualificar a escuta clínica, evitar estereótipos, desenvolver práticas de enfrentamento ao racismo e fortalecer estratégias de cuidado comprometidas com a equidade.</p>
-          <!-- TODO: Título -->
+          <ol class="lista-outline" style="--secao: 2; --item: 2">
+            <li>Saúde dos povos indígenas e o encarceramento</li>
+          </ol>
           <p>A privação de liberdade da população indígena revela a convergência de múltiplas iniquidades decorrentes do racismo estrutural, das limitações no acesso à justiça e do afastamento de seus territórios, de suas comunidades e das práticas tradicionais de cuidado. Esse conjunto de fatores repercute de maneira singular nas condições de saúde dessa população, potencializando as situações de violações de direitos que marcam esse grupo populacional historicamente invisibilizado.</p>
           <img src="src/assets/img/unidade/img-3.svg" alt="" class="my-4 w-80 mx-auto d-block">
           <p>No fim de 2016, o Departamento Penitenciário Nacional (DEPEN) registrava 590 indígenas encarcerados, apesar de ser apontado que o panorama estava subdimensionado, que o número seria bem maior (Silva; Menezes, 2019), sobretudo porque muitos não são registrados como indígenas quando presos, e esse desrespeito à autodeterminação inviabiliza a identificação da situação de maneira adequada. Sendo assim, é preciso chamar a atenção sobre o aumento dos índices prisionais quando se trata de indígenas. De acordo com o Infopen – Levantamento Nacional de Informações Penitenciárias, em dezembro de 2019 havia no sistema prisional brasileiro 1.390 indígenas presos, sendo 1.325 homens e 65 mulheres (DEPEN, 2020).</p>
@@ -88,7 +94,9 @@ export default {
           </div>
           <img src="src/assets/img/unidade/img-6.svg" alt="" class="w-80 mx-auto d-block my-4">
           <p>A política fundamenta-se no reconhecimento das especificidades sociais, culturais, geográficas, históricas e políticas dos povos indígenas, orientando a organização da atenção à saúde de modo a enfrentar as vulnerabilidades que contribuem para a ocorrência de agravos de maior magnitude e relevância. Também reafirma o respeito às práticas tradicionais de cuidado, reconhecendo sua legitimidade e eficácia, bem como assegura o direito dos povos indígenas à preservação e ao exercício de suas expressões culturais (Brasil, 2002).</p>
-          <!-- TODO: Título -->
+          <ol class="lista-outline" style="--secao: 2; --item: 3">
+            <li>Gênero, sexismo e machismo</li>
+          </ol>
           <p>As desigualdades de gênero assumem características específicas no sistema prisional. Muitas mulheres privadas de liberdade possuem trajetórias marcadas por violência doméstica, violência sexual, pobreza, maternidade em contextos de vulnerabilidade, racismo institucional e exclusão social (Santos, 2020).</p>
           <p>Historicamente, os sistemas prisionais foram organizados a partir de uma lógica masculina, tornando invisíveis e negligenciando diversas necessidades específicas das mulheres. Acompanhe, a seguir, questões que frequentemente recebem atenção insuficiente.</p>
           <img src="src/assets/img/unidade/img-7.svg" alt="" class="w-100 my-4">
@@ -105,13 +113,17 @@ export default {
             <p>Além dos impactos relacionados à menstruação, as desigualdades de gênero influenciam a experiência do encarceramento, os vínculos familiares, o exercício da maternidade, as oportunidades educacionais e laborais e as possibilidades de reinserção social. </p>
             <p>Cabe, portanto, às equipes de saúde reconhecer as múltiplas necessidades das mulheres privadas de liberdade, promover cuidado integral e atuar na defesa dos direitos humanos, da equidade de gênero e da dignidade de todas as mulheres em sua diversidade (Santos, 2020).</p>
           </div>
-          <!-- TODO: Título -->
+          <ol class="lista-outline" style="--secao: 2; --item: 4">
+            <li>Diversidade sexual, envelhecimento, deficiência e outras formas de iniquidade</li>
+          </ol>
           <p>Pessoas LGBTQIAPN+, migrantes, estrangeiros, pessoas idosas e pessoas com deficiência privadas de liberdade enfrentam desafios específicos relacionados ao acesso aos direitos, às condições de vida e ao cuidado em saúde. </p>
           <p>Embora compartilhem a experiência do encarceramento, suas necessidades de saúde e os riscos a que estão expostas não são homogêneos, sendo atravessados por diferentes formas de discriminação, exclusão social e violência institucional.</p>
           <p>Vamos aprofundar conhecimentos sobre cada uma dessas formas de iniquidade.</p>
           <!-- TODO: This whole ass section -->
           <p>Reconhecer cada uma dessas especificidades é fundamental para a construção de práticas clínicas inclusivas, culturalmente sensíveis e comprometidas com a equidade. Para os profissionais de saúde, incorporar uma perspectiva interseccional significa compreender que o cuidado deve ser orientado não apenas pelas condições clínicas apresentadas, mas também pelas experiências sociais e institucionais que moldam as necessidades de saúde de cada pessoa privada de liberdade.</p>
-          <!-- TODO: Título -->
+          <ol class="lista-outline" style="--secao: 2; --item: 5;">
+            <li>Produção de iniquidades no sistema prisional</li>
+          </ol>
           <p>As iniquidades em saúde não são naturais, inevitáveis ou decorrentes exclusivamente de escolhas individuais. Elas resultam de processos históricos, sociais, econômicos, políticos e institucionais que distribuem desigualmente oportunidades de vida, acesso a direitos, recursos de proteção social e condições para o desenvolvimento humano (Whitehead, 1992; Buss; Pellegrini Filho, 2007). </p>
           <div class="split">
             <p>Sob a perspectiva da determinação social da saúde, as desigualdades observadas nos padrões de adoecimento e morte refletem relações de poder historicamente constituídas, que produzem diferentes formas de exposição a riscos e de acesso à proteção e ao cuidado (Breilh, 2006).</p>
@@ -125,10 +137,12 @@ export default {
           <p>Além de reconhecer diferenças entre indivíduos e grupos sociais, a perspectiva interseccional convida os profissionais a compreenderem como essas diferenças são socialmente produzidas e transformadas em desigualdades por meio da articulação entre racismo, sexismo, LGBTfobia, capacitismo, xenofobia e outras formas de opressão (Crenshaw, 1989; Collins; Bilge, 2021; Akotirene, 2019). </p>
           <p>Para a prática clínica, isso significa ter atenção às seguintes ações, acompanhe:</p>
           <img src="src/assets/img/unidade/img-12.svg" alt="" class="mx-auto d-block w-80 my-4">
-          <!-- TODO: Título -->
-           <p>A sobreposição dos marcadores sociais da diferença, como raça, gênero, sexualidade, idade, nacionalidade, religião, deficiência e classe social, compreendida na perspectiva da interseccionalidade, constitui um importante desafio para a formulação e implementação de políticas públicas no âmbito do SUS. </p>
-           <p>Esses desafios tornam-se ainda mais complexos no contexto da privação de liberdade, marcado por múltiplas violações de direitos, condições estruturais adversas e limitações ao exercício da cidadania.</p>
-           <p>Nesse contexto, compreender como as iniquidades em saúde são produzidas e reproduzidas no sistema prisional e de que maneira repercutem no acesso ao cuidado torna-se um eixo central da atuação das equipes de saúde. Tal compreensão orienta práticas comprometidas com as seguintes ações.</p>
+          <ol class="lista-outline" style="--secao: 2; --item: 6;">
+            <li>Impactos na saúde e o papel das equipes de saúde na perspectiva dos Direitos Humanos</li>
+          </ol>
+          <p>A sobreposição dos marcadores sociais da diferença, como raça, gênero, sexualidade, idade, nacionalidade, religião, deficiência e classe social, compreendida na perspectiva da interseccionalidade, constitui um importante desafio para a formulação e implementação de políticas públicas no âmbito do SUS. </p>
+          <p>Esses desafios tornam-se ainda mais complexos no contexto da privação de liberdade, marcado por múltiplas violações de direitos, condições estruturais adversas e limitações ao exercício da cidadania.</p>
+          <p>Nesse contexto, compreender como as iniquidades em saúde são produzidas e reproduzidas no sistema prisional e de que maneira repercutem no acesso ao cuidado torna-se um eixo central da atuação das equipes de saúde. Tal compreensão orienta práticas comprometidas com as seguintes ações.</p>
           <img src="src/assets/img/unidade/img-13.svg" alt="" class="mx-auto d-block w-80 my-4">
           <p>Considerando as especificidades do cuidado em saúde no sistema prisional, a escuta qualificada e a clínica ampliada constituem estratégias fundamentais para qualificar as práticas assistenciais. Essa perspectiva dialoga diretamente com a atuação das equipes de saúde orientada pelos Direitos Humanos, uma vez que, conforme argumentam Campos e Amaral (2007), propõe uma metodologia organizacional capaz de articular a necessária padronização das condutas terapêuticas às singularidades dos sujeitos e às condições concretas impostas pelo contexto da privação de liberdade.</p>
           <img src="src/assets/img/unidade/img-14.svg" alt="" class="mx-auto d-block w-80 my-4">

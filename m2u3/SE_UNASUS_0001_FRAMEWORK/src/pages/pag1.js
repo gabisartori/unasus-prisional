@@ -50,10 +50,11 @@ export default {
           </div>
         </div>
       </section>
-      <!-- TODO: conteúdo da página -->
       <section>
         <div class="container">
-          <!-- TODO: Título -->
+          <ol class="lista-outline" style="--secao: 3; --item: 0;">
+            <li>Condições de vida e saúde no cárcere</li>
+          </ol>
           <div class="d-flex gap-4">
             <div class="col">
               <p>As condições de vida exercem papel central nos processos de saúde, adoecimento e morte das pessoas privadas de liberdade. No contexto prisional, aspectos que ultrapassam o campo das necessidades materiais e passam a constituir elementos fundamentais para a proteção da <strong>saúde</strong>, da <strong>dignidade humana</strong> e da <strong>garantia de direitos</strong> estão relacionados ao acesso a água potável, alimentação adequada, higiene, ventilação, iluminação, vestuário, espaço físico, saneamento e banho de sol.
@@ -87,13 +88,19 @@ export default {
             <p>Questões como acesso à água, à alimentação, à higiene, à ventilação, ao espaço físico, a banho de sol e a condições de habitação não devem ser consideradas aspectos pormenorizados ou menos importantes do cuidado, mas componentes centrais da produção da saúde e da defesa do direito à vida. </p>
             <p>Nesse caminho, a atuação das equipes de saúde prisional exige a capacidade de identificar vulnerabilidades, registrar situações que impactem negativamente a saúde, articular ações intersetoriais e desenvolver estratégias de cuidado comprometidas com a integralidade, a equidade e os direitos humanos. Condições precárias de vida não devem ser naturalizadas como parte inerente do encarceramento.</p>
           </div>
-          <!-- TODO: Expandable -->
+          <ol class="lista-outline lista-outline-sub" style="--secao: 3;">
+            <li>Higiene das pessoas privadas de liberdade e pobreza menstrual</li>
+          </ol>
           <p>Durante a discussão do caso, surge a reflexão de que seus sintomas não podem ser compreendidos apenas como uma condição clínica individual, mas também como possíveis expressões das experiências de violência institucional, racismo, desigualdades de gênero e restrições de direitos vivenciadas no cotidiano prisional.</p>
           <img src="src/assets/img/unidade/img-3.svg" alt="" class="mx-auto d-block w-100 my-4">
           <p>E para dar continuidade, convidamos você a acompanhar um tema bastante importante: a pobreza menstrual. Confira a seguir e mantenha sempre a atenção quanto a este assunto.</p>
-          <!-- TODO: Título -->
+          <ol id="secao-3-2" class="lista-outline" style="--secao: 3; --item: 1;">
+            <li>Condições de vestuário e habitação</li>
+          </ol>
           <p>A pobreza menstrual constitui expressão concreta das desigualdades de gênero no cárcere. Tal situação é definida pela ausência ou insuficiência de absorventes e de condições adequadas para higiene menstrual, o que impacta diretamente a dignidade, a saúde e o bem-estar das mulheres privadas de liberdade. Além dos impactos físicos, a pobreza menstrual produz sofrimento emocional, constrangimento e aprofundamento das desigualdades.</p>
-          <!-- TODO: Título -->
+          <ol id="secao-3-3" class="lista-outline" style="--secao: 3; --item: 2;">
+            <li>Condições de vestuário e habitação</li>
+          </ol>
           <p>As condições de vestuário e habitação também exercem impactos significativos sobre a saúde das pessoas privadas de liberdade. </p>
           <p>No ambiente prisional, o acesso a roupas adequadas, limpas e compatíveis com as condições climáticas, bem como a existência de espaços habitáveis que garantam ventilação, iluminação, conforto térmico e proteção contra intempéries constituem elementos essenciais para a preservação da saúde e da dignidade humana. Entretanto, em muitas unidades prisionais, pessoas privadas de liberdade convivem com as situações descritas abaixo.</p>
           <img src="src/assets/img/unidade/img-4.svg" alt="" class="mx-auto d-block w-100 my-4">
@@ -107,12 +114,14 @@ export default {
           <p>Da mesma forma, a Lei de Execução Penal brasileira prevê a garantia de instalações adequadas e condições mínimas de habitabilidade para as pessoas custodiadas pelo Estado (Brasil, 1984).</p>
           <p>Nesse contexto, cabe aos profissionais de saúde incorporar a avaliação das condições de habitação e vestuário como parte integrante da análise clínica e sanitária. Queixas recorrentes de dores musculoesqueléticas, sintomas respiratórios, alterações do sono, sofrimento psíquico ou problemas dermatológicos podem estar diretamente relacionadas às condições materiais de vida existentes no ambiente prisional. </p>
           <p>Reconhecer essa relação amplia a capacidade de compreender os processos de adoecimento em sua integralidade e fortalece a construção de estratégias de cuidado comprometidas com a promoção da saúde, a equidade e a defesa dos direitos humanos.</p>
-          <!-- TODO: Título -->
-           <div class="split">
-            <p>A exposição à luz solar e a possibilidade de circulação em ambientes abertos possuem impactos significativos sobre a saúde física, mental e social das pessoas privadas de liberdade.</p>
-            <p>A restrição prolongada ao banho de sol, frequentemente </p>
-            <p>associada à superlotação, a limitações estruturais ou a medidas disciplinares, pode contribuir para deficiência de vitamina D, alterações do ciclo sono-vigília, piora da saúde mental e intensificação dos efeitos físicos e emocionais do confinamento prolongado (WHO, 2014; ONU, 2015).</p>
-           </div>
+          <ol class="lista-outline" style="--secao: 3; --item: 3">
+            <li>Direito ao banho de sol e impactos na saúde</li>
+          </ol>
+          <div class="split">
+          <p>A exposição à luz solar e a possibilidade de circulação em ambientes abertos possuem impactos significativos sobre a saúde física, mental e social das pessoas privadas de liberdade.</p>
+          <p>A restrição prolongada ao banho de sol, frequentemente </p>
+          <p>associada à superlotação, a limitações estruturais ou a medidas disciplinares, pode contribuir para deficiência de vitamina D, alterações do ciclo sono-vigília, piora da saúde mental e intensificação dos efeitos físicos e emocionais do confinamento prolongado (WHO, 2014; ONU, 2015).</p>
+          </div>
           <img src="src/assets/img/unidade/img-7.svg" alt="" class="mx-auto d-block w-100 my-4">
           <p>Para além de seus efeitos biológicos, o banho de sol constitui um importante espaço de sociabilidade, convivência e redução parcial dos impactos do isolamento produzidos pelo encarceramento. </p>
           <div class="split">

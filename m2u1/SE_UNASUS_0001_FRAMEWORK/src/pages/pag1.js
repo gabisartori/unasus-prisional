@@ -28,8 +28,6 @@ export default {
         <div class="container-fluid p-0">
           <div class="row align-items-center g-0 flex-nowrap">
             <div class="col banner-texto">
-              <!-- mTODO: Figure out what this is -->
-              <!-- <span class="badge-eixo">Eixo Transversal</span> -->
               <!-- TODO: Nome do módulo -->
               <h3 class="modulo-titulo mt-4"></h3>
               <h1 class="unidade-numero">Unidade 1</h1>
@@ -52,14 +50,14 @@ export default {
           </div>
         </div>
       </section>
-      <!-- TODO: conteúdo da página -->
       <section>
         <div class="container">
-          <!-- TODO: Título da unidade -->
+          <!-- TODO: Fix this counter starting at 1.1 instead of just 1 -->
+           <ol class="lista-outline" style="--secao: 0;">
+              <li>Determinação social da saúde no contexto prisional</li>
+          </ol>
           <p>Ao iniciar esta unidade, convidamos você a refletir sobre uma questão fundamental para a prática em saúde prisional.</p>
-          <!-- TODO: Reflexion card -->
           <img src="src/assets/img/unidade/img-1.svg" alt="" class="w-80 mx-auto d-block my-4">
-          <!-- TODO: Implement split class -->
           <div class="split">
             <p>A resposta a essa pergunta é central para a compreensão da saúde das pessoas privadas de liberdade. Embora aspectos biológicos sejam importantes, eles são insuficientes para explicar a distribuição desigual da exposição, do adoecimento, do sofrimento e da morte observada em diferentes grupos populacionais.</p>
             <p>As condições de vida, trabalho, renda, escolarização, moradia, alimentação, pertencimento racial, gênero, território e acesso a direitos influenciam profundamente as possibilidades de viver com saúde ou adoecer. Nesse sentido, a determinação social da saúde constitui um importante referencial teórico, ético e político para compreender como as desigualdades estruturais produzem iniquidades em saúde (Breilh, 2006; Buss; Pellegrini Filho, 2007).</p>
@@ -85,7 +83,9 @@ export default {
           <img src="src/assets/img/unidade/img-4.svg" alt="" class="my-4 w-100">
           <p>Ao final desta unidade, esperamos que você seja capaz de reconhecer que os processos de adoecimento observados no sistema prisional não começam no momento do encarceramento nem podem ser explicados exclusivamente pelas características individuais das pessoas privadas de liberdade. Eles são produzidos por trajetórias de vida marcadas por desigualdades sociais, raciais, econômicas e territoriais que frequentemente antecedem a prisão e continuam atuando durante a privação de liberdade.</p>
           <p>Essa compreensão é fundamental para a construção de práticas clínicas éticas, integrais e comprometidas com a equidade. No cenário prisional, atributos da Atenção Primária à Saúde (APS), como longitudinalidade, coordenação do cuidado, orientação comunitária e cuidado centrado na pessoa, tornam-se ferramentas essenciais para o reconhecimento das necessidades de saúde, o fortalecimento dos vínculos terapêuticos e a defesa do direito à saúde das pessoas privadas de liberdade.</p>
-          <!-- TODO: Título -->
+          <ol class="lista-outline">
+            <li>Por que a determinação social da saúde importa para a prática clínica?</li>
+          </ol>
           <div class="d-flex my-4 mx-0">
             <p>A incorporação da perspectiva da determinação social da saúde transforma a maneira como os profissionais interpretam os problemas apresentados pelas pessoas privadas de liberdade. Em abordagens centradas exclusivamente no indivíduo, sintomas, comportamentos e dificuldades relacionadas ao cuidado tendem a ser explicados por características pessoais, escolhas individuais ou suposta falta de adesão aos tratamentos propostos. Embora fatores individuais tenham relevância clínica, eles frequentemente não são suficientes para explicar a complexidade dos processos de adoecimento observados no sistema prisional.</p>
             <img src="src/assets/img/unidade/img-1.png" alt="">

@@ -52,7 +52,7 @@ export default {
       </section>
       <section>
         <div class="container">
-          <ol class="lista-outline" style="--secao: 2; --item: 0;">
+          <ol id="secao-1" class="lista-outline" style="--secao: 2; --item: 0;">
             <li>Interseccionalidades e iniquidades em saúde</li>
           </ol>
           <p>A análise das condições de saúde das pessoas privadas de liberdade exige reconhecer que os processos de adoecimento e cuidado não ocorrem de forma homogênea entre os diferentes grupos populacionais. As desigualdades que influenciam profundamente as experiências de encarceramento e produzem impactos distintos sobre os modos de viver, adoecer, acessar direitos e sobreviver no sistema prisional estão relacionadas a:</p>
@@ -73,7 +73,7 @@ export default {
             </a>
           </div>
           <p>Quantas dessas situações podem estar presentes no cotidiano da sua prática profissional sem que sejam imediatamente reconhecidas? De que maneira a incorporação de uma perspectiva interseccional pode contribuir para a construção de planos terapêuticos mais adequados às necessidades das pessoas privadas de liberdade?</p>
-          <ol class="lista-outline" style="--secao: 2; --item: 1;">
+          <ol id="secao-2" class="lista-outline" style="--secao: 2; --item: 1;">
             <li>Racismo estrutural e saúde</li>
           </ol>
           <p>O sistema prisional brasileiro expressa, de modo contundente, os efeitos do racismo estrutural e da seletividade penal. </p>
@@ -84,7 +84,7 @@ export default {
             <p>A Política Nacional de Saúde Integral da População Negra (PNSIPN) reconhece o racismo como determinante social da saúde e estabelece diretrizes para o enfrentamento das desigualdades raciais no SUS. No contexto prisional, essa perspectiva é fundamental para compreender as necessidades de saúde da população majoritariamente encarcerada no país (Brasil, 2013).</p>
           </div>
           <p>Para os profissionais de saúde, reconhecer o racismo estrutural implica as seguintes ações: qualificar a escuta clínica, evitar estereótipos, desenvolver práticas de enfrentamento ao racismo e fortalecer estratégias de cuidado comprometidas com a equidade.</p>
-          <ol class="lista-outline" style="--secao: 2; --item: 2">
+          <ol id="secao-3" class="lista-outline" style="--secao: 2; --item: 2">
             <li>Saúde dos povos indígenas e o encarceramento</li>
           </ol>
           <p>A privação de liberdade da população indígena revela a convergência de múltiplas iniquidades decorrentes do racismo estrutural, das limitações no acesso à justiça e do afastamento de seus territórios, de suas comunidades e das práticas tradicionais de cuidado. Esse conjunto de fatores repercute de maneira singular nas condições de saúde dessa população, potencializando as situações de violações de direitos que marcam esse grupo populacional historicamente invisibilizado.</p>
@@ -102,7 +102,7 @@ export default {
           </div>
           <img src="src/assets/img/unidade/img-6.svg" alt="" class="w-80 mx-auto d-block my-4">
           <p>A política fundamenta-se no reconhecimento das especificidades sociais, culturais, geográficas, históricas e políticas dos povos indígenas, orientando a organização da atenção à saúde de modo a enfrentar as vulnerabilidades que contribuem para a ocorrência de agravos de maior magnitude e relevância. Também reafirma o respeito às práticas tradicionais de cuidado, reconhecendo sua legitimidade e eficácia, bem como assegura o direito dos povos indígenas à preservação e ao exercício de suas expressões culturais (Brasil, 2002).</p>
-          <ol class="lista-outline" style="--secao: 2; --item: 3">
+          <ol id="secao-4" class="lista-outline" style="--secao: 2; --item: 3">
             <li>Gênero, sexismo e machismo</li>
           </ol>
           <p>As desigualdades de gênero assumem características específicas no sistema prisional. Muitas mulheres privadas de liberdade possuem trajetórias marcadas por violência doméstica, violência sexual, pobreza, maternidade em contextos de vulnerabilidade, racismo institucional e exclusão social (Santos, 2020).</p>
@@ -121,7 +121,7 @@ export default {
             <p>Além dos impactos relacionados à menstruação, as desigualdades de gênero influenciam a experiência do encarceramento, os vínculos familiares, o exercício da maternidade, as oportunidades educacionais e laborais e as possibilidades de reinserção social. </p>
             <p>Cabe, portanto, às equipes de saúde reconhecer as múltiplas necessidades das mulheres privadas de liberdade, promover cuidado integral e atuar na defesa dos direitos humanos, da equidade de gênero e da dignidade de todas as mulheres em sua diversidade (Santos, 2020).</p>
           </div>
-          <ol class="lista-outline" style="--secao: 2; --item: 4">
+          <ol id="secao-5" class="lista-outline" style="--secao: 2; --item: 4">
             <li>Diversidade sexual, envelhecimento, deficiência e outras formas de iniquidade</li>
           </ol>
           <p>Pessoas LGBTQIAPN+, migrantes, estrangeiros, pessoas idosas e pessoas com deficiência privadas de liberdade enfrentam desafios específicos relacionados ao acesso aos direitos, às condições de vida e ao cuidado em saúde. </p>
@@ -146,7 +146,7 @@ export default {
           <img src="src/assets/img/unidade/label-4.svg" alt="" class="my-3">
           <p>Pessoas migrantes e estrangeiras, por sua vez, podem enfrentar dificuldades relacionadas ao idioma, às diferenças culturais, ao afastamento das redes de apoio e ao desconhecimento dos direitos garantidos pelo SUS. Essas barreiras podem dificultar a comunicação clínica, comprometer a adesão terapêutica e ampliar situações de vulnerabilidade social e institucional (IOM, 2022; Ventura; Yujra, 2019).</p>
           <p>Reconhecer cada uma dessas especificidades é fundamental para a construção de práticas clínicas inclusivas, culturalmente sensíveis e comprometidas com a equidade. Para os profissionais de saúde, incorporar uma perspectiva interseccional significa compreender que o cuidado deve ser orientado não apenas pelas condições clínicas apresentadas, mas também pelas experiências sociais e institucionais que moldam as necessidades de saúde de cada pessoa privada de liberdade.</p>
-          <ol class="lista-outline" style="--secao: 2; --item: 5;">
+          <ol id="secao-6" class="lista-outline" style="--secao: 2; --item: 5;">
             <li>Produção de iniquidades no sistema prisional</li>
           </ol>
           <p>As iniquidades em saúde não são naturais, inevitáveis ou decorrentes exclusivamente de escolhas individuais. Elas resultam de processos históricos, sociais, econômicos, políticos e institucionais que distribuem desigualmente oportunidades de vida, acesso a direitos, recursos de proteção social e condições para o desenvolvimento humano (Whitehead, 1992; Buss; Pellegrini Filho, 2007). </p>
@@ -162,7 +162,7 @@ export default {
           <p>Além de reconhecer diferenças entre indivíduos e grupos sociais, a perspectiva interseccional convida os profissionais a compreenderem como essas diferenças são socialmente produzidas e transformadas em desigualdades por meio da articulação entre racismo, sexismo, LGBTfobia, capacitismo, xenofobia e outras formas de opressão (Crenshaw, 1989; Collins; Bilge, 2021; Akotirene, 2019). </p>
           <p>Para a prática clínica, isso significa ter atenção às seguintes ações, acompanhe:</p>
           <img src="src/assets/img/unidade/img-12.svg" alt="" class="mx-auto d-block w-80 my-4">
-          <ol class="lista-outline" style="--secao: 2; --item: 6;">
+          <ol id="secao-7" class="lista-outline" style="--secao: 2; --item: 6;">
             <li>Impactos na saúde e o papel das equipes de saúde na perspectiva dos Direitos Humanos</li>
           </ol>
           <p>A sobreposição dos marcadores sociais da diferença, como raça, gênero, sexualidade, idade, nacionalidade, religião, deficiência e classe social, compreendida na perspectiva da interseccionalidade, constitui um importante desafio para a formulação e implementação de políticas públicas no âmbito do SUS. </p>

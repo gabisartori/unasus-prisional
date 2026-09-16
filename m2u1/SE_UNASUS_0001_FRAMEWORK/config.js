@@ -4,7 +4,6 @@ export default reactive({
     // TODO: Configurar nome do curso/módulo e título da página
     name: '',
     menuTitle: '',
-    // TODO: SE NECESSÁRIO, configurar identidade visual
     color: '#003BBA',
     index: 'group_1(Pag1)',
     ltiValue: 'navigation',

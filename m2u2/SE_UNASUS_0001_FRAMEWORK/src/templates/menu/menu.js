@@ -8,8 +8,13 @@ import { watchActiveSection } from '../../composables/sectionScroll.js'
     numeração com a que os contadores CSS de .lista-outline geram lá.
 */
 const sections = [
-    // TODO: Criar tópicos da página
-    { id: '', title: '' },
+    { id: 'secao-1', title: 'Interseccionalidades e iniquidades em saúde' },
+    { id: 'secao-2', title: 'Racismo estrutural e saúde' },
+    { id: 'secao-3', title: 'Saúde dos povos indígenas e o encarceramento' },
+    { id: 'secao-4', title: 'Gênero, sexismo e machismo' },
+    { id: 'secao-5', title: 'Diversidade sexual, envelhecimento, deficiência e outras formas de iniquidade' },
+    { id: 'secao-6', title: 'Produção de iniquidades no sistema prisional' },
+    { id: 'secao-7', title: 'Impactos na saúde e o papel das equipes de saúde na perspectiva dos Direitos Humanos' },
 ]
 
 export default {

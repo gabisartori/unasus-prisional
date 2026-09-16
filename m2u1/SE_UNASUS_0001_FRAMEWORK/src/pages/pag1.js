@@ -82,7 +82,7 @@ export default {
           <img src="src/assets/img/unidade/img-4.svg" alt="" class="my-4 w-100">
           <p>Ao final desta unidade, esperamos que você seja capaz de reconhecer que os processos de adoecimento observados no sistema prisional não começam no momento do encarceramento nem podem ser explicados exclusivamente pelas características individuais das pessoas privadas de liberdade. Eles são produzidos por trajetórias de vida marcadas por desigualdades sociais, raciais, econômicas e territoriais que frequentemente antecedem a prisão e continuam atuando durante a privação de liberdade.</p>
           <p>Essa compreensão é fundamental para a construção de práticas clínicas éticas, integrais e comprometidas com a equidade. No cenário prisional, atributos da Atenção Primária à Saúde (APS), como longitudinalidade, coordenação do cuidado, orientação comunitária e cuidado centrado na pessoa, tornam-se ferramentas essenciais para o reconhecimento das necessidades de saúde, o fortalecimento dos vínculos terapêuticos e a defesa do direito à saúde das pessoas privadas de liberdade.</p>
-          <ol class="lista-outline">
+          <ol id="secao-1" class="lista-outline">
             <li>Por que a determinação social da saúde importa para a prática clínica?</li>
           </ol>
           <div class="d-flex my-4 mx-0">

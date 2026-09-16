@@ -8,8 +8,7 @@ import { watchActiveSection } from '../../composables/sectionScroll.js'
     numeração com a que os contadores CSS de .lista-outline geram lá.
 */
 const sections = [
-    // TODO: Criar tópicos da página
-    { id: '', title: '' },
+    { id: 'secao-1', title: 'Por que a determinação social da saúde importa para a prática clínica?' },
 ]
 
 export default {

@@ -52,7 +52,7 @@ export default {
       </section>
       <section>
         <div class="container">
-          <ol class="lista-outline" style="--secao: 3; --item: 0;">
+          <ol id="secao-1" class="lista-outline" style="--secao: 3; --item: 0;">
             <li>Condições de vida e saúde no cárcere</li>
           </ol>
           <div class="d-flex gap-4">
@@ -88,17 +88,17 @@ export default {
             <p>Questões como acesso à água, à alimentação, à higiene, à ventilação, ao espaço físico, a banho de sol e a condições de habitação não devem ser consideradas aspectos pormenorizados ou menos importantes do cuidado, mas componentes centrais da produção da saúde e da defesa do direito à vida. </p>
             <p>Nesse caminho, a atuação das equipes de saúde prisional exige a capacidade de identificar vulnerabilidades, registrar situações que impactem negativamente a saúde, articular ações intersetoriais e desenvolver estratégias de cuidado comprometidas com a integralidade, a equidade e os direitos humanos. Condições precárias de vida não devem ser naturalizadas como parte inerente do encarceramento.</p>
           </div>
-          <ol class="lista-outline lista-outline-sub" style="--secao: 3;">
+          <ol id="secao-2" class="lista-outline lista-outline-sub" style="--secao: 3;">
             <li>Higiene das pessoas privadas de liberdade e pobreza menstrual</li>
           </ol>
           <p>Durante a discussão do caso, surge a reflexão de que seus sintomas não podem ser compreendidos apenas como uma condição clínica individual, mas também como possíveis expressões das experiências de violência institucional, racismo, desigualdades de gênero e restrições de direitos vivenciadas no cotidiano prisional.</p>
           <img src="src/assets/img/unidade/img-3.svg" alt="" class="mx-auto d-block w-100 my-4">
           <p>E para dar continuidade, convidamos você a acompanhar um tema bastante importante: a pobreza menstrual. Confira a seguir e mantenha sempre a atenção quanto a este assunto.</p>
-          <ol id="secao-3-2" class="lista-outline" style="--secao: 3; --item: 1;">
+          <ol id="secao-3" id="secao-3-2" class="lista-outline" style="--secao: 3; --item: 1;">
             <li>Condições de vestuário e habitação</li>
           </ol>
           <p>A pobreza menstrual constitui expressão concreta das desigualdades de gênero no cárcere. Tal situação é definida pela ausência ou insuficiência de absorventes e de condições adequadas para higiene menstrual, o que impacta diretamente a dignidade, a saúde e o bem-estar das mulheres privadas de liberdade. Além dos impactos físicos, a pobreza menstrual produz sofrimento emocional, constrangimento e aprofundamento das desigualdades.</p>
-          <ol id="secao-3-3" class="lista-outline" style="--secao: 3; --item: 2;">
+          <ol id="secao-4" id="secao-3-3" class="lista-outline" style="--secao: 3; --item: 2;">
             <li>Condições de vestuário e habitação</li>
           </ol>
           <p>As condições de vestuário e habitação também exercem impactos significativos sobre a saúde das pessoas privadas de liberdade. </p>
@@ -114,7 +114,7 @@ export default {
           <p>Da mesma forma, a Lei de Execução Penal brasileira prevê a garantia de instalações adequadas e condições mínimas de habitabilidade para as pessoas custodiadas pelo Estado (Brasil, 1984).</p>
           <p>Nesse contexto, cabe aos profissionais de saúde incorporar a avaliação das condições de habitação e vestuário como parte integrante da análise clínica e sanitária. Queixas recorrentes de dores musculoesqueléticas, sintomas respiratórios, alterações do sono, sofrimento psíquico ou problemas dermatológicos podem estar diretamente relacionadas às condições materiais de vida existentes no ambiente prisional. </p>
           <p>Reconhecer essa relação amplia a capacidade de compreender os processos de adoecimento em sua integralidade e fortalece a construção de estratégias de cuidado comprometidas com a promoção da saúde, a equidade e a defesa dos direitos humanos.</p>
-          <ol class="lista-outline" style="--secao: 3; --item: 3">
+          <ol id="secao-5" class="lista-outline" style="--secao: 3; --item: 3">
             <li>Direito ao banho de sol e impactos na saúde</li>
           </ol>
           <div class="split">

@@ -1,0 +1,17 @@
+.unasus-button {
+    cursor: pointer;
+    border: none;
+    padding: 10px 15px 10px 15px;
+    background: var(--base-color);
+    color: #ffffff;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.5s;
+}
+
+.unasus-button:hover { background: var(--secondary-color); }
+
+.unasus-button:disabled { 
+    background: #e4e4e4; 
+    cursor: auto;
+}

@@ -1,0 +1,22 @@
+.unasus-image {
+    position: relative;
+    background: #ffffff;
+    padding: 10px;
+    border: 1px solid #dddddd;
+}
+
+.unasus-image-wrapper { 
+    position: relative;
+    overflow: hidden; 
+}
+
+.unasus-image-aux { 
+    position: absolute;
+    visibility: hidden; 
+} 
+
+.unasus-image span {
+    display: inline-block; 
+    margin-top: 5px;
+    font-size: 0.8rem;
+}

@@ -52,117 +52,69 @@ export default {
       </section>
       <section>
         <div class="container py-5">
-           <ol class="lista-outline" style="--secao: 1;">
-              <li>Determinação social da saúde no contexto prisional</li>
+          <ol class="lista-outline" style="--secao: 1;">
+            <li>Organização da atenção à saúde no sistema prisional</li>
           </ol>
-          <p>Ao iniciar esta unidade, convidamos você a refletir sobre uma questão fundamental para a prática em saúde prisional.</p>
-          <img src="src/assets/img/unidade/img-1.svg" alt="" class="w-80 mx-auto d-block my-4">
+          <p>A organização da atenção à saúde no sistema prisional brasileiro é orientada pelos princípios do SUS. A Constituição Federal de 1988, a Lei de Execução Penal (Lei nº 7.210/1984) e a Política Nacional de Atenção Integral à Saúde das Pessoas Privadas de Liberdade no Sistema Prisional, instituída em 2014, reconhecem que as pessoas privadas de liberdade mantêm o direito à saúde e devem ter acesso às ações e serviços ofertados à população em geral.</p>
+          <p>Nesse contexto, a atenção à saúde nas prisões deve ser organizada de forma integrada à Rede de Atenção à Saúde  (RAS), superando a lógica de isolamento institucional historicamente presente nesses espaços.</p>
+          <p>Segundo Starfield (2002), a Atenção Primária à Saúde (APS) deve constituir a principal porta de entrada para o cuidado em saúde. No sistema prisional não é diferente. As equipes de Atenção Primária Prisional (eAPP) são responsáveis pelo acolhimento e acompanhamento contínuo da população privada de liberdade, desenvolvendo as seguintes ações.</p>
+          <img src="src/assets/img/unidade/img-1.svg" alt="" class="w-100">
+          <p>Essas equipes atuam de forma multiprofissional e devem realizar o atendimento integral, incluindo acolhimento, a identificação das necessidades de saúde, o acompanhamento de condições crônicas e todos os ciclos de vida. Além de questões de gênero e étnico-raciais, deve acolher as deficiências, promover a atenção à saúde mental, à saúde da mulher e do idoso, estabelecer pontes com as famílias, estimular redes de apoio social, entre outras demandas específicas desta população.</p>
           <div class="split">
-            <p>A resposta a essa pergunta é central para a compreensão da saúde das pessoas privadas de liberdade. Embora aspectos biológicos sejam importantes, eles são insuficientes para explicar a distribuição desigual da exposição, do adoecimento, do sofrimento e da morte observada em diferentes grupos populacionais.</p>
-            <p>As condições de vida, trabalho, renda, escolarização, moradia, alimentação, pertencimento racial, gênero, território e acesso a direitos influenciam profundamente as possibilidades de viver com saúde ou adoecer. Nesse sentido, a determinação social da saúde constitui um importante referencial teórico, ético e político para compreender como as desigualdades estruturais produzem iniquidades em saúde (Breilh, 2006; Buss; Pellegrini Filho, 2007).</p>
+            <p>Como sabemos, a APS é responsável pela coordenação do cuidado e sua capacidade resolutiva depende também da corresponsabilidade e dos compartilhamentos dos casos com outros serviços extramuros a fim de prover exames diagnósticos, atendimentos hospitalares e ações de urgência e emergência.</p>
+            <p>Dessa forma, a organização da atenção à saúde no sistema prisional depende da articulação efetiva com os demais pontos da RAS. A regulação do acesso aos serviços especializados, o transporte sanitário e a comunicação entre as equipes de saúde prisional e os serviços externos são elementos fundamentais para garantir a continuidade do cuidado e evitar interrupções nos tratamentos.</p>
           </div>
-          <p class="mt-2">Diferentemente das abordagens que compreendem os determinantes sociais como fatores isolados associados ao risco de adoecimento, a perspectiva da determinação social da saúde entende que os processos de saúde, adoecimento e morte são historicamente produzidos pelas formas de organização econômica, política, social e cultural das sociedades. Essa abordagem permite compreender como relações de poder, exploração, racismo, colonialidade, patriarcado e desigualdade moldam as condições concretas de vida das populações e produzem distribuições desiguais de proteção e exposição ao sofrimento (Breilh, 2006). No contexto prisional brasileiro, essas desigualdades assumem contornos particularmente intensos.</p>
-          <img src="src/assets/img/unidade/img-2.svg" alt="" class="my-4 w-100">
-          <p>Como já destacado, dados nacionais demonstram que a população privada de liberdade é composta majoritariamente por pessoas negras, jovens, pobres e com baixa escolaridade, evidenciando a estreita relação entre desigualdades sociais e encarceramento em massa (Brasil, 2023; Almeida, 2019; Wacquant, 2007).</p>
+          <img src="src/assets/img/unidade/img-2.svg" alt="" class="mx-auto my-4 d-block w-80">
           <div class="split">
-            <p>Assim, o cárcere não pode ser compreendido apenas como espaço de cumprimento de pena. Trata-se também de um território produtor de necessidades de saúde, onde condições materiais e institucionais influenciam diretamente os processos de adoecimento.</p>
-            <p>Superlotação, ventilação imprópria, acesso insuficiente à água, alimentação inadequada, restrição ao banho de sol, violência institucional, ruptura de vínculos familiares e dificuldades de acesso a direitos constituem elementos que impactam diretamente a saúde física e mental das pessoas privadas de liberdade (WHO, 2014).</p>  
+            <p>No âmbito da saúde prisional, o cuidado das pessoas privadas de liberdade mantém a lógica das RAS. Segundo Mendes (2011), as RAS são arranjos organizativos de ações e serviços de saúde, de diferentes densidades tecnológicas, que, integrados por sistemas de apoio, logísticos e de gestão, buscam garantir a integralidade do cuidado a uma população definida. Trata-se, portanto, de um trabalho em rede, baseado na cooperação e na interdependência entre serviços e coordenado pela atenção primária.</p>
+            <p>Nessa lógica, a eAPP ocupa o lugar de centro de comunicação da rede: é ela que coordena o cuidado e articula a pessoa aos demais pontos de atenção e programas do SUS. Vale lembrar que a eAPP é uma equipe multiprofissional e que, diferentemente da Estratégia Saúde da Família, não conta com agentes comunitários de saúde. Para organizar a RAS no território prisional, ajuda a reconhecer os cinco componentes que Mendes (2011) descreve. Vamos conhecê-los melhor.</p>
           </div>
-          <p>Essa compreensão está alinhada aos princípios da Política Nacional de Atenção Integral à Saúde das Pessoas Privadas de Liberdade no Sistema Prisional (PNAISP), instituída pela Portaria Interministerial nº 1, de 2 de janeiro de 2014, que reconhece as pessoas privadas de liberdade como sujeitos de direitos e reafirma a responsabilidade do Sistema Único de Saúde (SUS) na garantia do acesso universal e integral às ações e serviços de saúde (Brasil, 2014).</p>
-          <img src="src/assets/img/unidade/img-3.svg" alt="" class="w-80 mx-auto d-block my-4">
+          <img src="src/assets/img/unidade/img-3.svg" alt="" class="mx-auto my-4 d-block w-100">
           <div class="split">
-            <p>Nessa perspectiva, raça, gênero e classe não podem ser analisados separadamente, exigindo abordagens interseccionais capazes de compreender a articulação simultânea entre diferentes sistemas de opressão (Crenshaw, 1989). Ao discutir saúde prisional, torna-se igualmente fundamental reconhecer o papel do racismo estrutural na produção das desigualdades em saúde. </p>
-            <p>O racismo não se limita a atitudes individuais discriminatórias, mas organiza o acesso aos direitos, aos bens sociais e às oportunidades de vida. No campo da saúde, isso se manifesta por meio de condições de vida desiguais, barreiras institucionais de acesso ao cuidado, invisibilização do sofrimento e naturalização de violências dirigidas à população negra (Almeida, 2019).</p>
+            <p>A RAS é composta por serviços de saúde do SUS. Vale lembrar que para que seja possível atender às necessidades da pessoa, é importante acionar recursos disponíveis provenientes das diferentes políticas públicas vigentes. O Sistema Único de Assistência Social (SUAS), os órgãos da justiça e da segurança pública, os conselhos de direitos e as entidades da sociedade civil não integram a RAS, mas compõem a rede intersetorial com a qual a saúde prisional precisa se articular para enfrentar os determinantes sociais. Essa articulação é dinâmica e se organiza conforme a realidade de cada território, por isso a equipe deve conhecer e acionar os parceiros disponíveis no seu contexto local.</p>
+            <p>A assistência farmacêutica também faz parte da RAS das pessoas privadas de liberdade e é consolidada por meio da Relação Nacional de Medicamentos Essenciais (RENAME). É importante saber que os medicamentos disponíveis na sua UBSP são os mesmos das UBS para pessoas extramuros.</p>
+            <!-- TODO: Saiba mais -->
           </div>
-          <p>Autores como Mbembe (2018) contribuem para compreender como determinadas populações passam a ocupar zonas de maior exposição à morte e ao sofrimento, enquanto Vargas (2018) destaca a compreensão do encarceramento em massa como uma das expressões das desigualdades raciais persistentes. Para os profissionais de saúde que atuam no sistema prisional, reconhecer a determinação social da saúde significa ampliar o olhar clínico para além da doença ou dos fatores estritamente biológicos.</p>
+          <p>Sobre a escolha destes insumos no SUS, destaca-se que o Ministério da Saúde é o órgão competente pela gestão e organização da política de saúde nacional, e a competência legal de dispor sobre a RENAME e os Protocolos Clínicos (PCDT) pertence à Comissão Intergestores Tripartite (CIT). </p>
+          <p>O Ministério da Saúde consolidava e publicava as atualizações da RENAME a cada dois anos. No entanto, a RENAME passou a contar com um modelo de atualização dinâmica e em tempo real para modernizar o acesso à lista. Vários desafios dificultam a efetivação desse modelo de atenção, e é importante reconhecer que as barreiras ao cuidado de qualidade não estão de um lado só. Elas se originam tanto no sistema penal-carcerário quanto no próprio sistema de saúde, havendo barreiras de acesso em ambos.</p>
+          <p>Por isso, a atenção à saúde no sistema prisional deve ser compreendida como uma responsabilidade compartilhada entre os gestores da saúde, da administração penitenciária e das demais políticas públicas, resumido pelo tripé saúde-segurança-justiça. Discutir a saúde das pessoas privadas de liberdade, além de contribuir para a proteção da dignidade humana intramuros, também fortalece toda a comunidade, uma vez que, além das pessoas privadas de liberdade, este sistema conta com familiares e profissionais da saúde e da segurança pública.</p>
           <div class="split">
-            <p>Na prática cotidiana, isso implica reconhecer que queixas como insônia, dores crônicas, irritabilidade, sofrimento psíquico, hipertensão descompensada ou uso abusivo de substâncias podem estar diretamente relacionadas às condições de vida e às experiências produzidas pelo encarceramento. Também exige compreender que dificuldades de adesão terapêutica nem sempre decorrem de escolhas individuais, mas frequentemente refletem barreiras estruturais, institucionais e relacionais que interferem nas possibilidades de acesso, cuidado e autocuidado.</p>
-            <p>Ao longo desta especialização, você aprofundará a compreensão dessas condições e de seus impactos sobre a saúde das pessoas privadas de liberdade. Serão discutidas as condições de vida no sistema prisional, incluindo aspectos relacionados à alimentação, água, higiene, habitação, pobreza menstrual, violência e acesso a direitos, bem como os principais agravos e necessidades de saúde presentes nesse contexto. A compreensão da determinação social da saúde constitui, portanto, uma base indispensável para analisar criticamente esses problemas e desenvolver intervenções clínicas e sanitárias mais efetivas e factíveis.</p>
-          </div>
-          <img src="src/assets/img/unidade/img-4.svg" alt="" class="my-4 w-100">
-          <p>Ao final desta unidade, esperamos que você seja capaz de reconhecer que os processos de adoecimento observados no sistema prisional não começam no momento do encarceramento nem podem ser explicados exclusivamente pelas características individuais das pessoas privadas de liberdade. Eles são produzidos por trajetórias de vida marcadas por desigualdades sociais, raciais, econômicas e territoriais que frequentemente antecedem a prisão e continuam atuando durante a privação de liberdade.</p>
-          <p>Essa compreensão é fundamental para a construção de práticas clínicas éticas, integrais e comprometidas com a equidade. No cenário prisional, atributos da Atenção Primária à Saúde (APS), como longitudinalidade, coordenação do cuidado, orientação comunitária e cuidado centrado na pessoa, tornam-se ferramentas essenciais para o reconhecimento das necessidades de saúde, o fortalecimento dos vínculos terapêuticos e a defesa do direito à saúde das pessoas privadas de liberdade.</p>
-          <ol id="secao-1" class="lista-outline">
-            <li>Por que a determinação social da saúde importa para a prática clínica?</li>
-          </ol>
-          <div class="d-flex my-4 mx-0">
-            <p>A incorporação da perspectiva da determinação social da saúde transforma a maneira como os profissionais interpretam os problemas apresentados pelas pessoas privadas de liberdade. Em abordagens centradas exclusivamente no indivíduo, sintomas, comportamentos e dificuldades relacionadas ao cuidado tendem a ser explicados por características pessoais, escolhas individuais ou suposta falta de adesão aos tratamentos propostos. Embora fatores individuais tenham relevância clínica, eles frequentemente não são suficientes para explicar a complexidade dos processos de adoecimento observados no sistema prisional.</p>
             <img src="src/assets/img/unidade/img-1.png" alt="">
+            <p>Outro fator importante é o papel que a oferta de um cuidado integral pode contribuir para a reintegração e ressocialização que o sistema penal se propõe, uma vez que as pessoas privadas de liberdade retornarão às suas comunidades em algum momento.</p>
+            <p class="pt-3">Assim, a organização da atenção à saúde no sistema prisional representa um importante desafio para a consolidação dos princípios do SUS e para a promoção da equidade em saúde, sem que sua privação de liberdade seja entendida como uma quebra da longitudinalidade do cuidado que propõe a APS (Minayo; Ribeiro, 2016).</p>
           </div>
-          <p>O infográfico apresentado abaixo busca representar, de forma sintética e visual, como diferentes processos sociais e institucionais se articulam na produção das iniquidades vivenciadas pela população privada de liberdade. Ao evidenciar o fluxo entre racismo estrutural, pobreza, superencarceramento, superlotação, restrição de direitos e adoecimento, pretende-se estimular uma leitura crítica sobre o sistema prisional e seus impactos na saúde individual e coletiva.</p>
-          <p>O conteúdo a seguir demonstra que o adoecimento no contexto prisional não pode ser explicado apenas por fatores biológicos ou individuais. As condições de saúde das pessoas privadas de liberdade são produzidas por processos históricos e estruturais que organizam desigualmente o acesso à renda, à moradia, à educação, à proteção social e ao cuidado em saúde.</p>
-          <img src="src/assets/img/unidade/img-5.svg" alt="" class="mx-auto d-block w-80 my-4">
+          <p>Para compreender de forma mais aprofundada essa organização, é fundamental reconhecer o sistema prisional como um território de atuação da APS, que embora apresente características singulares relacionadas à privação de liberdade, à segurança institucional e às dinâmicas sociais próprias, o ambiente prisional constitui um espaço onde vivem, trabalham e interagem diferentes sujeitos, produzindo necessidades de saúde específicas e complexas.</p>
+          <p>A partir da perspectiva da territorialização, torna-se possível identificar vulnerabilidades, recursos disponíveis, fluxos assistenciais, barreiras de acesso e oportunidades de intervenção que influenciam diretamente a qualidade do cuidado ofertado.</p>
+          <p>Ao longo desta unidade, você será convidado a analisar como a organização dos serviços, a articulação com a RAS e os processos de trabalho das equipes interferem no acesso e na continuidade do cuidado das pessoas privadas de liberdade. Ao aprofundar conhecimentos sobre normas e estruturas organizacionais, o objetivo é desenvolver um olhar crítico sobre as possibilidades concretas de qualificação do cuidado e de fortalecimento do direito à saúde para uma população historicamente marcada por situações de vulnerabilidade e exclusão social.</p>
+          <ol id="secao-1-1" class="lista-outline lista-outline-sub" style="--secao: 1;">
+            <li>Higiene das pessoas privadas de liberdade e pobreza menstrual</li>
+          </ol>
+          <img src="src/assets/img/unidade/img-4.svg" alt="" class="my-4 w-100">
+          <p>O primeiro esforço de regulamentação e de expansão efetiva de equipes veio com o Plano Nacional de Saúde no Sistema Penitenciário (PNSSP), instituído pela Portaria Interministerial nº 1.777/2003, que vigorou até 2013.</p>
+          <p>O PNSSP ampliou de forma importante o número de equipes e já aproximava os serviços prisionais da Atenção Básica, inclusive pelo cadastramento das unidades no Cadastro Nacional de Estabelecimentos de Saúde (CNES). Tinha limites significativos, no entanto, concentrava-se na população em regime fechado, deixando de fora pessoas em regime provisório e em delegacias, e sua cobertura permaneceu em torno de 30%, bem abaixo do ritmo de crescimento da população prisional no período.</p>
+          <p>Em 2014, o PNSSP é substituído pela Política Nacional de Atenção Integral à Saúde das Pessoas Privadas de Liberdade, instituída pela Portaria Interministerial nº 1/2014.</p>
+          <img src="src/assets/img/unidade/img-5.svg" alt="" class="my-4 w-80 d-block mx-auto">
           <div class="split">
-            <p>Ao ampliar o olhar para as condições concretas de vida, para as trajetórias sociais e para o contexto institucional em que as pessoas estão inseridas, torna-se possível compreender que muitos agravos à saúde refletem experiências acumuladas de pobreza, racismo, violência, exclusão social, sofrimento psíquico e privação de direitos.</p>
-            <p>O quadro a seguir apresenta exemplos de situações frequentemente encontradas na prática assistencial e ilustra como a perspectiva da determinação social da saúde pode contribuir para análises mais abrangentes, qualificando a tomada de decisão clínica e fortalecendo a construção de estratégias de cuidado integrais, humanizadas e comprometidas com a equidade.</p>
+            <p>Reafirma, ainda, a responsabilidade compartilhada entre União, estados e municípios. Essa evolução é também simbólica: como observa Teixeira Junior (2024), os termos mudam ao longo do tempo — da "atenção" da LEP à "assistência" do PNSSP e ao "cuidado" da PNAISP —, assim como a própria designação "pessoas privadas de liberdade", que resgata a ideia de sujeito para além do estigma da condição penal.</p>
+            <p>Do ponto de vista político, a importância da PNAISP vai muito além da operacionalização de serviços. Ao reconhecer a população privada de liberdade como responsabilidade da rede pública de saúde, a política fortalece tanto a universalidade quanto a equidade do SUS, afinal, é uma política dirigida a um grupo específico, marcado por profundas desigualdades.</p>
           </div>
-          <div class="w-80 mx-auto my-4">
-            <img src="src/assets/img/unidade/table-1-1.svg" alt="" class="w-100">
-            <div class="collapse" id="table-1">
-              <img src="src/assets/img/unidade/table-1-2.svg" alt="" class="w-100">
-            </div>
-            <a href="#table-1" data-bs-toggle="collapse" role="button">
-              <img src="src/assets/img/unidade/table-1-3.svg" alt="" class="w-100">
-            </a>
-          </div>
-          <p>Ao incorporar essa perspectiva, a clínica amplia a capacidade de identificar vulnerabilidades, reconhecer necessidades de saúde e construir estratégias de cuidado mais efetivas e humanizadas, rompendo com a lógica reducionista de causa-efeito.</p>
-          <a href="#table-2" role="button" data-bs-toggle="collapse">
-            <img src="src/assets/img/unidade/table-2-1.svg" alt="" class="w-100">
-          </a>
-          <div class="collapse" id="table-2">
-            <img src="src/assets/img/unidade/table-2-2.svg" alt="" class="w-100">
-          </div>
-          <p>A análise do caso evidencia que os processos de adoecimento não podem ser compreendidos apenas a partir de fatores biológicos individuais. A determinação social da saúde permite compreender que sofrimento psíquico, hipertensão descompensada, vulnerabilidade social e adoecimento crônico estão diretamente relacionados às desigualdades estruturais, ao racismo, à violência e às condições concretas de vida produzidas pelo encarceramento.</p>
-          <p>Nesse contexto, a atuação da equipe de saúde exige uma abordagem centrada na pessoa, com escuta qualificada, construção de vínculo terapêutico, reconhecimento das vulnerabilidades sociais e articulação entre cuidado clínico, saúde mental e defesa de direitos.</p>
-          <img src="src/assets/img/unidade/img-6.svg" alt="" class="w-100 my-4">
-          <h3 style="color: #123F68;">Encerramento da Unidade</h3>
-          <p>Nesta unidade, discutimos como os processos de saúde, adoecimento e morte das pessoas privadas de liberdade são influenciados por fatores que ultrapassam o campo biológico e individual. Compreendemos que desigualdades sociais, raciais, econômicas e institucionais moldam as condições concretas de vida e produzem distribuições desiguais de riscos, sofrimentos e oportunidades de proteção à saúde.</p>
-          <p>Também analisamos como o encarceramento em massa se articula a processos históricos de racismo estrutural, criminalização da pobreza e exclusão social, influenciando diretamente as necessidades de saúde da população prisional.Para a prática profissional, reconhecer a determinação social da saúde significa ampliar o olhar clínico, fortalecer a escuta qualificada, desenvolver abordagens integrais e construir estratégias de cuidado comprometidas com os princípios da equidade, da dignidade humana e do direito à saúde.</p>
-          <p>Ao longo da especialização, aprofundaremos a compreensão de como essas desigualdades se expressam no cotidiano das prisões e quais são seus impactos sobre grupos populacionais específicos.</p>
-          <div class="accordion" id="accordionReferencias">
-            <div class="accordion-item">
-                <h4 class="accordion-header" id="headingReferencias">
-                    <button class="accordion-button card-style--white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#painelReferencias" aria-expanded="false" aria-controls="painelReferencias">
-                        Referências
-                    </button>
-                </h4>
-                <div id="painelReferencias" class="accordion-collapse collapse" aria-labelledby="headingReferencias" data-bs-parent="#accordionReferencias">
-                  <div class="accordion-body">
-                      <div class="accordion-body-p--white referencias">
-                        <p>ALMEIDA, Silvio Luiz de. Racismo estrutural. São Paulo: Pólen, 2019.</p>
-                        <p>AMNISTIA INTERNACIONAL. Relatório Anual 2023/2024. Londres: Anistia Internacional, 2024.</p>
-                        <p>BRASIL. Conselho Nacional de Justiça. Relatório de Inspeção Penal. Brasília: CNJ, 2024.</p>
-                        <p>BRASIL. Constituição da República Federativa do Brasil. Brasília: Senado Federal, 1988. Art. 5º, cap. I (arts. 5º a LXVII).</p>
-                        <p>BRASIL. Departamento Penitenciário Nacional. Levantamento Nacional de Informações Penitenciárias (INFOPEN). Brasília: DEPEN, 2024.</p>
-                        <p>BRASIL. Ministério da Saúde. Política Nacional de Atenção Integral à Saúde das Pessoas Privadas de Liberdade no Sistema Prisional (PNAISP). Brasília: Ministério da Saúde, 2014.</p>
-                        <p>BRASIL. Ministério da Justiça e Segurança Pública. Relatório de Informações Penais – Relipen. Brasília: SENAPPEN, 2023.</p>
-                        <p>BREILH, Jaime. Epidemiologia crítica: ciência emancipadora e interculturalidade. Rio de Janeiro: Fiocruz, 2006.</p>
-                        <p>BUSS, Paulo Marchiori; PELLEGRINI FILHO, Alberto. A saúde e seus determinantes sociais. Physis, Rio de Janeiro, v. 17, n. 1, p. 77-93, 2007.</p>
-                        <p>CRENSHAW, Kimberlé. Demarginalizing the intersection of race and sex. University of Chicago Legal Forum, Chicago, v. 1989, n. 1, p. 139-167, 1989.</p>
-                        <p>DAVIS, Angela. A democracia da abolição para além do império, das prisões e da tortura. Rio de Janeiro: Difel, 2009. </p>
-                        <p>DAVIS, Angela Y. Estarão as prisões obsoletas? Rio de Janeiro: Difel, 2018.</p>
-                        <p>GONZALEZ, Lélia. Por um feminismo afro-latino-americano. Rio de Janeiro: Zahar, 2020.</p>
-                        <p>JAMES, S. et al. Global health care in prisons: a scoping review. The Lancet, London, v. 38, n. 10049, p. 291–304, 2016. </p>
-                        <p>KILOMBA, Grada. Memórias da plantação: episódios de racismo cotidiano. Rio de Janeiro: Cobogó, 2019.</p>
-                        <p>LEWIS, [ilegível]. Direitos humanos de pessoas privadas de liberdade. Belo Horizonte: Fórum, 2019.</p>
-                        <p>MBEMBE, Achille. Necropolítica. São Paulo: n-1 edições, 2018.</p>
-                        <p>MINAYO, Maria Cecília de Souza; RIBEIRO, Adalgisa. Condições de saúde em prisões. Ciência & Saúde Coletiva, Rio de Janeiro, v. 15, n. 1, p. 219–228, 2010.</p>
-                        <p>ORGANIZAÇÃO DAS NAÇÕES UNIDAS (ONU). Regras Mínimas das Nações Unidas para o Tratamento de Presos (Regras de Mandela). Viena: ONU, 2015.</p>
-                        <p>PASTORAL CARCERÁRIA NACIONAL. Relatório anual sobre o sistema prisional brasileiro. São Paulo: Pastoral Carcerária, 2023.</p>
-                        <p>PNUD. Relatório do Desenvolvimento Humano 2023/2024. Nova York: Programa das Nações Unidas para o Desenvolvimento, 2024. </p>
-                        <p>ROCHA, Rosel. Pobreza e desigualdade no Brasil contemporâneo. Serviço Social & Sociedade, São Paulo, n. 140, p. 45–63, 2020. </p>
-                        <p>SARLET, Ingo Wolfgang. A eficácia dos direitos fundamentais. 11. ed. Porto Alegre: Livraria do Advogado, 2018. </p>
-                        <p>SERAFIM, Lucas; TEIXEIRA, Mariana. Desigualdades sociais e pobreza no Brasil. Ciência & Saúde Coletiva, Rio de Janeiro, v. 26, n. 5, p. 2101–2112, 2021.</p>
-                        <p>THE WORLD PRISON BRIEF. World Prison Population List. London: Institute for Crime & Justice Policy Research, 2024. </p>
-                        <p>VARGAS, João H. Costa. The Denial of Antiblackness: Multiracial Redemption and Black Suffering. Minneapolis: University of Minnesota Press, 2018.</p>
-                        <p>WACQUANT, Loïc. As prisões da miséria. Rio de Janeiro: Zahar, 2001. </p>
-                        <p>WACQUANT, Loïc. Punir os pobres: a nova gestão da miséria nos Estados Unidos. Rio de Janeiro: Revan, 2007.</p>
-                        <p>WORLD HEALTH ORGANIZATION (WHO). Prisons and Health. Copenhagen: WHO Regional Office for Europe, 2014.</p>
-                      </div>
-                  </div>
-              </div>
-            </div>
-          </div>
+          <p>O sistema penal brasileiro é seletivo, e a seletividade penal e o racismo institucional fazem com que o encarceramento recaia de forma desproporcional sobre a população historicamente vulnerada, reproduzindo práticas históricas de exclusão e segregação. Garantir saúde de qualidade às pessoas presas é, nesse sentido, também uma resposta de equidade a uma iniquidade socialmente produzida.</p>
+          <p>A PNAISP reconhece que os problemas vividos por essa população não podem ser enfrentados por um único setor. Por isso aproxima a saúde de outros campos, como justiça, administração penitenciária, assistência social e educação, apostando na articulação intersetorial. Convém lembrar, contudo, que essa articulação não é apenas harmônica, na prática, a lógica do cuidado convive, e por vezes tensiona, com a lógica da segurança, e a gestão compartilhada entre saúde e administração penitenciária é, ela mesma, um campo de negociação permanente (Teixeira Junior, 2024).</p>
+          <p>A seguir, apresentaremos os princípios e as diretrizes da PNAISP e seus objetivos específicos.</p>
+          <!-- TODO: Group -->
+          <p>A PNAISP veio também para reforçar no Brasil as Regras de Nelson Mandela.  Essas regras surgiram em 1955 quando a então Organização das Nações Unidas (ONU) aprovou as Regras Mínimas para o Tratamento de Presos durante o Primeiro Congresso das Nações Unidas sobre Prevenção do Crime e Tratamento de Delinquentes. Naquele momento, o mundo vivia o período pós Segunda Guerra Mundial, marcado pela consolidação dos direitos humanos como um valor universal após as atrocidades cometidas durante o conflito.</p>
+          <p>O objetivo era definir parâmetros mínimos de dignidade que todos os países deveriam observar em seus sistemas prisionais. Ao longo das décadas seguintes, transformações sociais, jurídicas e científicas evidenciaram a necessidade de atualizar essas regras. Temas como saúde mental, prevenção da tortura, uso da força, isolamento prisional, acesso à saúde e respeito à dignidade humana ganharam maior relevância no debate internacional. Em 2015, após um amplo processo de revisão conduzido pela ONU, a Assembleia Geral aprovou uma versão atualizada das Regras Mínimas para o Tratamento de Presos. Em homenagem a Nelson Mandela, elas passaram a ser conhecidas como Regras de Nelson Mandela. '</p>
+          <!-- TODO: Saiba mais -->
+          <p>Como a PNAISP e as regras de Nelson Mandela (a privação de liberdade não pode significar privação do direito à saúde, à dignidade e à cidadania) influenciam diretamente na sua autonomia enquanto profissional de saúde dentro do ambiente prisional? Em ambos, existe a garantia de que a clínica seja soberana e o profissional de saúde tenha independência técnica dentro do cárcere. Os principais pontos de convergência para a preservação da autonomia do profissional de saúde são os descritos a seguir, acompanhe.</p>
+          <img src="src/assets/img/unidade/img-6.svg" alt="" class="my-4 w-100">
+          <p>Portanto, enquanto as Regras de Mandela oferecem o respaldo ético internacional para a coordenação do cuidado, a PNAISP fornece o arcabouço jurídico e administrativo no Brasil para que você exerça sua profissão com a liberdade necessária para enfrentar as iniquidades do ambiente carcerário.</p>
+          <ol class="lista-outline" style="--secao: 1; --item: 1">
+            <li>Competências dos entes federativos na implementação da PNAISP</li>
+          </ol>
+          <p>A organização da saúde no sistema prisional reflete o próprio modelo federativo do SUS, no qual União, estados e municípios compartilham responsabilidades. Diferentemente de um modelo centralizado, a PNAISP foi estruturada para que cada esfera de governo exerça funções complementares, respeitando as competências previstas na Constituição Federal de 1988 e na Lei Orgânica da Saúde (Lei nº 8.080/1990).</p>
+          <p>Essa divisão de responsabilidades permite que a formulação das políticas ocorra em âmbito nacional, enquanto a organização dos serviços e a oferta do cuidado sejam adaptadas às realidades regionais e locais. Ao mesmo tempo, exige intensa cooperação entre gestores da saúde e da administração prisional, uma vez que a atenção à saúde das pessoas privadas de liberdade envolve tanto o sistema de saúde quanto o sistema de justiça e segurança pública.</p>
+          <p>Conheça, a seguir, as especificidades da União, dos estados e dos municípios brasileiros. </p>
+          <!-- TODO: Continuar daqui -->
         </div>
       </section>
     </div>

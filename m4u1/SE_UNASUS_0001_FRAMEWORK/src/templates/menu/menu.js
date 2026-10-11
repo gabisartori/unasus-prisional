@@ -8,7 +8,12 @@ import { watchActiveSection } from '../../composables/sectionScroll.js'
     numeração com a que os contadores CSS de .lista-outline geram lá.
 */
 const sections = [
-    { id: 'secao-1', title: 'Por que a determinação social da saúde importa para a prática clínica?' },
+    { id: 'secao-1', title: 'Organização da atenção à saúde no sistema prisional' },
+    { id: 'secao-2', title: 'Competências dos entes federativos na implementação da PNAISP' },
+    { id: 'secao-3', title: 'Acesso e organização da atenção à saúde no sistema prisional' },
+    { id: 'secao-4', title: 'Financiamento, adesão e credenciamento na política' },
+    { id: 'secao-5', title: 'Componente básico da assistência farmacêutica' },
+    { id: 'secao-6', title: 'Requisitos de validação das eAPP para financiamento' }    
 ]
 
 export default {

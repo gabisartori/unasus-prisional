@@ -1261,3 +1261,44 @@ a {
 a:hover {
     filter: brightness(0.9)
 }
+
+#group-1 :has(>a[aria-expanded="true"]) {
+    background-color: #0044FF;
+}
+
+#group-1 :has(>a[aria-expanded="true"]) a {
+    color: white !important;
+}
+
+.expandable-title {
+    background-color: #003BBA;
+}
+
+.expandable-title {
+    color: #EBF6FF;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    padding: 16px 24px;
+    border-radius: 12px;
+}
+
+.expandable-title[aria-expanded="true"] {
+    background-color: #0783FF;
+}
+
+.expandable-title img {
+    transition: transform 0.5s;
+}
+
+.expandable-title[aria-expanded="true"] img {
+    transform: rotate(180deg);
+}
+
+.expandable-body {
+    background-color: #E2EFFC;
+    padding: 16px;
+    margin-top: 16px;
+}

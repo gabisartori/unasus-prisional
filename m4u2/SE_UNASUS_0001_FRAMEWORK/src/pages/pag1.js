@@ -91,7 +91,7 @@ export default {
             <p>Resultado: o itinerário terapêutico, que é o caminho que ela percorreu no cuidado de sua saúde, corre o risco de se perder a cada mudança. Sem esse histórico, a nova equipe recomeça do zero, repete exames, interrompe tratamentos e desperdiça o vínculo que já havia sido construído.</p>
             <p>O prontuário eletrônico é a memória da equipe. Registrar adequadamente os atendimentos no e-SUS APS é o que permite que a história clínica acompanhe a pessoa pela rede e resista às transferências. Sem registro, a longitudinalidade se perde e o cuidado se fragmenta.</p>
           </div>
-          <ol id="secao-3" class="lista-outline" style="--secao: 2;">
+          <ol id="secao-3" class="lista-outline" style="--secao: 2; --item: 1;">
             <li>Regulação e acesso aos serviços de saúde</li>
           </ol>
           <p>Quando a necessidade de saúde ultrapassa o que a APS pode resolver na unidade, é preciso utilizar os serviços de regulação. Regular o acesso significa organizar, segundo critérios de necessidade e prioridade, a oferta de consultas especializadas, exames, procedimentos e internações disponíveis na rede. No SUS, esse processo é operacionalizado por sistemas de regulação, o mais conhecido é o Sistema Nacional de Regulação (SISREG), que organiza as filas e distribui as vagas dos serviços próprios, contratados ou conveniados.</p>
@@ -103,7 +103,7 @@ export default {
           <img src="src/assets/img/unidade/img-3.svg" alt="" class="mx-auto d-block w-80 my-4">
           <p>Diante desse cenário, a regulação no sistema prisional não se resume ao manejo técnico do sistema informatizado. Ela exige também articulação permanente com a equipe de segurança para que o deslocamento seja planejado em conjunto e, com frequência, uma postura de <strong>advocacy</strong>, isto é, de defesa ativa do direito à saúde da pessoa presa junto à rede e às instâncias de gestão, garantindo que sua condição de privação de liberdade não se converta em mais uma barreira de acesso.</p>
           <p>Convidamos, então, você a pensar nas seguintes questões: quantas vagas reguladas para a sua população foram perdidas no último mês por ausência de escolta? Existe, na sua realidade, algum espaço de planejamento conjunto entre saúde e segurança para organizar esses deslocamentos? Se não existe, que primeiro passo seria possível dar para criá-lo?</p>
-          <ol id="secao-4" class="lista-outline" style="--secao: 3;">
+          <ol id="secao-4" class="lista-outline" style="--secao: 2; --item: 2;">
             <li>Itinerário da pessoa privada de liberdade na rede</li>
           </ol>
           <p>Chamamos de <strong>itinerário</strong> o percurso que a pessoa faz pelos serviços de saúde e, no caso da população prisional, também pelas diferentes unidades penais ao longo do cumprimento da pena. </p>
@@ -116,7 +116,7 @@ export default {
           </div>
           <img src="src/assets/img/unidade/img-5.svg" alt="" class="mx-auto d-block w-80 my-4">
           <p>Nas duas próximas seções, olhamos com mais cuidado para os dois extremos desse itinerário: a porta de entrada, quando a pessoa ingressa no sistema, e a porta de saída, quando ela retorna à comunidade. Em ambos, a lógica do bonde (preparar a saída e organizar a chegada) é o que torna a continuidade possível.</p>
-          <ol id="secao-5" class="lista-outline" style="--secao: 4;">
+          <ol id="secao-5" class="lista-outline" style="--secao: 2; --item: 3;">
             <li>Porta de entrada no sistema prisional</li>
           </ol>
           <p>A porta de entrada é o primeiro contato da pessoa com o sistema prisional e, idealmente, com a equipe de saúde. É um momento decisivo.  A pessoa recém-ingressa chega frequentemente fragilizada, sem saber a que serviços têm direito, e pode trazer consigo condições de saúde que precisam ser identificadas com rapidez: doenças infecciosas transmissíveis, agravos agudos, sofrimento mental, uso problemático de álcool e outras drogas, tratamentos em curso, que não podem ser interrompidos.</p>
@@ -141,7 +141,7 @@ export default {
               </div>
             </div>
           </div>
-          <ol id="secao-6" class="lista-outline" style="--secao: 5;">
+          <ol id="secao-6" class="lista-outline" style="--secao: 2; --item: 4;">
             <li>Porta de saída e continuidade do cuidado</li>
           </ol>
           <p>Se a entrada é decisiva, a saída é igualmente crítica, e costuma ser o ponto mais negligenciado de todo o itinerário. A porta de saída compreende tanto a progressão para regimes mais abertos quanto o retorno definitivo à comunidade. Em ambos os casos, há um risco concreto: o cuidado construído ao longo de meses ou anos pode simplesmente se interromper no momento em que a pessoa deixa a unidade.</p>

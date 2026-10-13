@@ -1,0 +1,17 @@
+.footer-layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px 0 30px;
+    width: 100%;
+    min-height: auto;
+    background: #ffffff;
+    border-top: 4px solid var(--secondary-color);
+}
+
+.footer-layout .logo {
+    width: 170px;
+    height: auto;
+    margin-right: 20px;
+    float: left;
+}

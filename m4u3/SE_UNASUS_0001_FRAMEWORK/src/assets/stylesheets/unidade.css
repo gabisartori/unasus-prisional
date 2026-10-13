@@ -1,0 +1,1246 @@
+/*
+    Estilos do conteúdo do Módulo 15 – Eixo Transversal (Unidade 1),
+    importados de Modulo-15-Eixo-Transversal/css/styles.css e adaptados
+    para rodar dentro do framework PPU:
+
+    - o seletor "body" original virou escopo do conteúdo (#pag1 e área de scroll);
+    - os caminhos url(../img/...) continuam válidos: as imagens foram copiadas
+      para src/assets/img/{geral,un1};
+    - no fim do arquivo há ajustes de convivência entre o reboot do Bootstrap 5
+      e o chrome do framework (menu lateral, cabeçalho).
+*/
+
+#unasus-content-wrapper {
+    background-color: rgba(248, 247, 243, 1);
+}
+
+/* .unidade-modal: modais movidos para o <body> por unidade.js, que por isso
+   ficam fora de #pag1 e precisam receber a mesma tipografia do conteúdo. */
+#pag1,
+#pag1 *,
+.unidade-modal,
+.unidade-modal * {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Cor de texto padrão do conteúdo: a do reboot do Bootstrap, como na página
+   original, e não o #333333 que o framework aplica ao restante da interface. */
+#pag1,
+.unidade-modal {
+    color: var(--bs-body-color);
+}
+
+
+.barra-header {
+    width: 100%;
+    height: 60px;
+    max-height: 60px;
+    background-color: #003BBA;
+}
+
+.banner-unidade {
+    background-color: #F0EEE4;
+    overflow: hidden;
+}
+
+.barra-objetivo {
+    background-color: #003BBA;
+    color: #fff;
+}
+
+.faixa-titulo-cards {
+    background-color: #003BBA;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    padding: 8px 16px;
+    margin-bottom: 0;
+}
+
+.lista-outline,
+.lista-outline ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    counter-reset: item 0;
+}
+
+.lista-outline {
+    counter-reset: secao var(--secao, 1) item var(--item, 0);
+}
+
+.lista-outline ol {
+    grid-column: 1 / -1;
+    box-sizing: border-box;
+    margin-top: 12px;
+    padding-left: 40px;
+}
+
+.lista-outline li {
+    counter-increment: item;
+    display: grid;
+    grid-template-columns: 75px minmax(0, 1fr);
+    column-gap: 24px;
+    row-gap: 12px;
+    align-items: center;
+    overflow-wrap: break-word;
+    font-size: 36px !important;
+    font-weight: 600 !important;
+    color: #123F68 !important;
+}
+
+.lista-outline-sub li {
+    font-size: 28px !important;
+}
+
+.lista-outline li::before {
+    content: counter(secao) "." counters(item, ".");
+    width: 75px;
+    height: 75px;
+    box-sizing: border-box;
+    border: 3px solid #123F68;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #123F68;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.lista-outline ol li::before {
+    font-size: 22px;
+}
+
+.lista-outline ol ol li::before {
+    font-size: 16px;
+}
+
+.lista-outline-sub {
+    counter-reset: secao var(--secao, 1) sub var(--sub, 1) item var(--item, 0);
+}
+
+.lista-outline-sub li::before {
+    content: counter(secao) "." counter(sub) "." counters(item, ".");
+    font-size: 26px;
+}
+
+.lista-bullet {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.lista-bullet li {
+    display: grid;
+    grid-template-columns: 24px minmax(0, 1fr);
+    column-gap: 12px;
+    align-items: start;
+    overflow-wrap: break-word;
+    font-size: 18px;
+}
+
+.lista-bullet li::before {
+    content: '';
+    width: 24px;
+    height: 24px;
+    background-image: url('../img/geral/bullet.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card-destaque {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 16px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: -8px 4px 2px 2px rgba(189, 0, 35, 1);
+    padding: 24px 32px;
+}
+
+.card-destaque-icone {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card-destaque-texto {
+    flex: 1 1 0;
+    min-width: 0;
+}
+
+.card-destaque h4 {
+    color: #940822;
+    font-weight: bold;
+    margin-top: 0 !important;
+    margin-bottom: 8px !important;
+}
+
+.card-destaque p {
+    color: #22272A;
+    margin-bottom: 0 !important;
+}
+
+.card-reflexao {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 16px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: -8px 4px 2px 2px #0037D7;
+    padding: 24px 32px;
+}
+
+.card-reflexao-icone {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card-reflexao-texto {
+    flex: 1 1 0;
+    min-width: 0;
+}
+
+.card-reflexao h4 {
+    color: #0037D7;
+    font-weight: bold;
+    margin-top: 0 !important;
+    margin-bottom: 8px !important;
+}
+
+.card-reflexao p {
+    color: #22272A;
+    margin-bottom: 0 !important;
+}
+
+.banner-texto {
+    flex: 0 0 100%;
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+    padding: 40px 24px 40px clamp(20px, 5vw, 125px);
+}
+
+.banner-imagem {
+    display: none;
+}
+
+.banner-imagem img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 580px;
+    max-height: 870px;
+    padding: 0;
+    margin: 0;
+}
+
+@media (min-width: 768px) {
+    .banner-texto {
+        flex: 0 0 60%;
+        max-width: 60%;
+    }
+
+    .banner-imagem {
+        display: flex;
+        flex: 0 0 40%;
+        max-width: 40%;
+        min-width: 0;
+        justify-content: flex-end;
+        padding: 0;
+        margin: 0;
+        line-height: 0;
+    }
+}
+
+.badge-eixo {
+    display: inline-block;
+    background-color: #003BBA;
+    color: #fff;
+    font-size: clamp(14px, 1.8vw, 24px);
+    font-weight: 600;
+    padding: 12px 28px;
+    border-radius: 100px;
+    white-space: nowrap;
+}
+
+.modulo-titulo {
+    color: #0037D7;
+    font-weight: 600 !important;
+    font-size: clamp(16px, 2.4vw, 32px) !important;
+    overflow-wrap: break-word;
+}
+
+.unidade-numero {
+    color: #0037D7;
+    font-weight: 500 !important;
+    font-size: clamp(22px, 3.6vw, 48px) !important;
+    overflow-wrap: break-word;
+}
+
+.unidade-subtitulo {
+    color: #0E2F53;
+    font-weight: bold !important;
+    font-size: clamp(20px, 3.6vw, 48px) !important;
+    overflow-wrap: break-word;
+}
+
+article * {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    hyphens: auto;
+    text-align: justify;
+    color: #373C42;
+}
+
+svg a {
+    text-decoration: none !important;
+}
+
+article h1,
+h2,
+h3,
+h4,
+li,
+p {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 120% !important;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 120% !important;
+    margin-top: 0px !important;
+}
+
+h3 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 140% !important;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 140% !important;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150% !important;
+}
+
+p {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 150% !important;
+}
+
+.paragrafo-recuo {
+    padding-left: 60px;
+}
+
+/* ===== Accordion "sanfona" com imagem (hover troca de imagem, clique abre outra imagem) ===== */
+
+.accordion-header {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.accordion-item {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+}
+
+/* Remove a moldura padrão do Bootstrap só nos itens com skin sanfona */
+.accordion-item:has(.sanfona-style) {
+    border: none;
+    background: transparent;
+}
+
+/* ---------- Cabeçalho (botão-imagem) ---------- */
+.accordion-button.sanfona-style {
+    position: relative;
+    padding: 0;
+    border: none;
+    background: transparent;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: none !important;
+}
+
+.accordion-button.sanfona-style:hover {
+    cursor: pointer;
+}
+
+/* Bootstrap 5 injeta chevron próprio no botão do accordion; neutraliza aqui */
+.accordion-button.sanfona-style::after {
+    display: none !important;
+}
+
+.accordion-img {
+    display: block;
+    width: 100%;
+}
+
+/* Imagem de hover fica sobreposta e some por padrão; aparece só no hover/focus */
+.accordion-img-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.accordion-button.sanfona-style:hover .accordion-img-hover,
+.accordion-button.sanfona-style:focus-visible .accordion-img-hover {
+    opacity: 1;
+}
+
+/* ---------- Corpo (a imagem revelada ao clicar) ---------- */
+.accordion-bodysanfona {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* ===== Tabs "Ideia principal / Desenvolvimento / Conclusão" (hover fixa a aba até passar em outra) ===== */
+
+.paragrafo-tabs-botoes {
+    display: inline-flex;
+    max-width: 100%;
+}
+
+.paragrafo-tab {
+    flex: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 56px;
+    padding: 0 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    white-space: nowrap;
+    text-align: center;
+    color: #0037D7;
+    background-color: transparent;
+    border: 2px solid #0037D7;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+@media (min-width: 769px) {
+    .paragrafo-tabs-botoes {
+        flex-wrap: wrap;
+    }
+
+    .paragrafo-tab {
+        margin-left: -2px;
+    }
+
+    .paragrafo-tabs-botoes .paragrafo-tab:first-child {
+        margin-left: 0;
+    }
+}
+
+.paragrafo-tabs-botoes .paragrafo-tab:first-child {
+    border-radius: 16px 0 0 16px;
+}
+
+.paragrafo-tabs-botoes .paragrafo-tab:last-child {
+    border-radius: 0 16px 16px 0;
+}
+
+/* Grupos com 4 abas (ex.: "Momento explicativo/normativo/estratégico/tático-operacional")
+   precisam de mais espaço horizontal do que 3 abas comportam. Nessa faixa intermediária,
+   em vez de empilhar em coluna, os botões dividem o espaço em partes iguais e a fonte
+   diminui gradualmente conforme a largura some (quebra de texto como último recurso).
+   Acima de 1400px a linha inteira cabe no tamanho original. */
+@media (min-width: 769px) and (max-width: 1399px) {
+    .paragrafo-tabs:has(.paragrafo-tab-4) .paragrafo-tabs-botoes {
+        flex-wrap: nowrap;
+    }
+
+    .paragrafo-tabs:has(.paragrafo-tab-4) .paragrafo-tab {
+        flex: 1 1 0;
+        min-width: 0;
+        height: auto;
+        min-height: 56px;
+        white-space: normal;
+    }
+
+    .paragrafo-tabs:has(.paragrafo-tab-4) .paragrafo-tab > span:first-child {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .paragrafo-tabs:has(.paragrafo-tab-4) .paragrafo-tab > span:first-child {
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .paragrafo-tabs:has(.paragrafo-tab-4) .paragrafo-tab > span:first-child {
+        font-size: 19px;
+    }
+}
+
+.paragrafo-tab-seta {
+    position: relative;
+    display: block;
+    width: 16px;
+    height: 16px;
+    flex: 0 0 auto;
+}
+
+.paragrafo-tab-seta img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.2s ease;
+}
+
+.paragrafo-tab-seta-branca {
+    opacity: 0;
+}
+
+.paragrafo-tab-seta-azul {
+    opacity: 1;
+}
+
+/* Aba ativa: fixada via JS (classe permanece até outra aba receber hover/foco) */
+.paragrafo-tab.paragrafo-tab-ativo {
+    background-color: #0044FF;
+    border-color: #0044FF;
+    color: #EBF6FF;
+}
+
+.paragrafo-tab.paragrafo-tab-ativo .paragrafo-tab-seta-branca {
+    opacity: 1;
+}
+
+.paragrafo-tab.paragrafo-tab-ativo .paragrafo-tab-seta-azul {
+    opacity: 0;
+}
+
+/* ---------- Conteúdo ---------- */
+.paragrafo-tabs-conteudo {
+    background-color: #E2EFFC;
+    border-radius: 16px;
+    padding: 20px 24px;
+    margin-top: 16px;
+}
+
+.paragrafo-tab-texto {
+    display: none;
+    margin: 0;
+    font-size: 18px;
+    color: #000;
+}
+
+.paragrafo-tabs:has(.paragrafo-tab-1.paragrafo-tab-ativo) .paragrafo-tab-texto-1,
+.paragrafo-tabs:has(.paragrafo-tab-2.paragrafo-tab-ativo) .paragrafo-tab-texto-2,
+.paragrafo-tabs:has(.paragrafo-tab-3.paragrafo-tab-ativo) .paragrafo-tab-texto-3,
+.paragrafo-tabs:has(.paragrafo-tab-4.paragrafo-tab-ativo) .paragrafo-tab-texto-4 {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .paragrafo-tabs-botoes {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        max-width: 100%;
+    }
+
+    .paragrafo-tab {
+        height: auto;
+        min-height: 56px;
+        white-space: normal;
+        width: 100%;
+    }
+
+    .paragrafo-tabs-botoes .paragrafo-tab:first-child {
+        border-radius: 16px 16px 0 0;
+    }
+
+    .paragrafo-tabs-botoes .paragrafo-tab:last-child {
+        border-radius: 0 0 16px 16px;
+    }
+}
+
+/* ===== Accordion "Referências" (cartão branco, ícone + / -) ===== */
+
+:root {
+    --petroleo500: #3E737C;
+    --petroleo200: #D0E1ED;
+    --petroleo100: #E2E8ED;
+}
+
+/* Remove a moldura padrão do Bootstrap só nos itens com skin card-style--white */
+.accordion-item:has(.card-style--white) {
+    border: none;
+    background: transparent;
+}
+
+/* ---------- Cabeçalho (cartão) ---------- */
+.accordion-button.card-style--white {
+    /* !important necessário: .accordion-item:first-of-type > .accordion-header .accordion-button
+       do Bootstrap 5 tem mais especificidade e sobrescreve para --bs-accordion-inner-border-radius (5px) */
+    border-radius: 12px !important;
+    padding: 24px 16px;
+    border-bottom: 3px solid #22272A;
+    background-color: #E3E8EA;
+    color: #22272A;
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background 0.2s ease, transform 0.1s ease;
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.accordion-button.card-style--white:hover {
+    background-color: #D3DADD;
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+/* Bootstrap 5 pinta o botão e aplica sombra quando aberto — desliga os dois */
+.accordion-button.card-style--white:not(.collapsed) {
+    background-color: #E3E8EA;
+    color: #22272A;
+    box-shadow: none;
+    /* aberto: gruda no corpo logo abaixo — sem borda nem cantos arredondados embaixo */
+    border-bottom: none;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.accordion-button.card-style--white:focus {
+    box-shadow: none;
+}
+
+.accordion-button.card-style--white:focus-visible {
+    outline: 3px solid var(--petroleo500);
+    outline-offset: 2px;
+}
+
+/* ---------- Ícone + / - (pseudo-elemento, sem asset e sem JS) ---------- */
+/* Neutraliza o chevron do BS5 (background-image e rotate) e escreve o glifo no lugar */
+.accordion-button.card-style--white::after {
+    content: "\2212";
+    background-image: none;
+    background-color: transparent;
+    transform: none;
+    width: auto;
+    height: auto;
+    margin-left: 24px;
+    flex-shrink: 0;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1;
+    color: #22272A;
+}
+
+.accordion-button.card-style--white.collapsed::after {
+    content: "+";
+}
+
+@media (max-width: 768px) {
+    .accordion-button.card-style--white {
+        max-width: 100%;
+        font-size: 16px;
+    }
+
+    .accordion-button.card-style--white::after {
+        font-size: 26px;
+    }
+}
+
+/* ---------- Painel ---------- */
+.accordion-body {
+    max-width: 90%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+}
+
+/* Cartão interno azul-claro com as referências — sem cantos em cima, gruda no header */
+.accordion-body-p--white {
+    border-bottom: 3px solid #22272A;
+    width: 100%;
+    padding: 20px;
+    border-radius: 0 0 20px 20px;
+    background: #E3E8EA;
+}
+
+/* O site força margin: 20px !important em todo <p>; zera aqui e usa só o gap entre entradas */
+.referencias p {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.referencias p + p {
+    margin-top: 12px !important;
+}
+
+.referencias a {
+    word-break: break-word;
+}
+
+/* ===== Card giratório (flip card) ===== */
+
+.maincontainer {
+    position: relative;
+    width: 100%;
+    max-width: 350px;
+    aspect-ratio: 350 / 177;
+    max-height: 177px;
+    margin: 0 auto;
+    cursor: pointer;
+    perspective: 1000px;
+}
+
+.maincontainer-200 {
+    aspect-ratio: 350 / 200;
+    max-height: 200px;
+}
+
+.maincontainer-452 {
+    max-width: 452px;
+    aspect-ratio: 452 / 318;
+    max-height: 318px;
+}
+
+.thecard {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.3s ease;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.thecard.flipped {
+    transform: rotateY(180deg);
+}
+
+.thefront,
+.theback {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    color: #333;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.thefront {
+    overflow: hidden;
+}
+
+.thefront img:not(.card-girar) {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.theback {
+    transform: rotateY(180deg);
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    padding: 14px 40px 14px 16px;
+    font-size: 22px;
+    line-height: 1.25;
+}
+
+.theback p {
+    font-weight: 600;
+}
+
+.theback-content {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.theback-titulo {
+    font-size: 22px;
+    font-weight: 600;
+    color: #0E497E;
+}
+
+.theback .theback-texto {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.card-girar {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 32px;
+    height: auto;
+    pointer-events: none;
+    z-index: 2;
+}
+
+@media (min-width: 768px) {
+    .row-flip-par > .col-md-6:nth-child(odd) .maincontainer {
+        margin-right: 0;
+    }
+
+    .row-flip-par > .col-md-6:nth-child(even) .maincontainer {
+        margin-left: 0;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .thecard {
+        transition: none;
+    }
+}
+
+/* ===== Accordion "azul" (cabeçalho descolado do corpo, sem borda) ===== */
+
+.accordion-item:has(.card-style--blue) {
+    border: none;
+    background: transparent;
+}
+
+.accordion-button.card-style--blue {
+    border-radius: 12px !important;
+    padding: 24px 16px;
+    background-color: #003BBA;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background 0.2s ease, transform 0.1s ease;
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.accordion-button.card-style--blue:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.accordion-button.card-style--blue:not(.collapsed) {
+    background-color: #0783FF;
+    color: #fff;
+    box-shadow: none;
+}
+
+.accordion-button.card-style--blue:focus {
+    box-shadow: none;
+}
+
+.accordion-button.card-style--blue:focus-visible {
+    outline: 3px solid #0783FF;
+    outline-offset: 2px;
+}
+
+/* ---------- Seta (pseudo-elemento com imagem, troca ao abrir) ---------- */
+.accordion-button.card-style--blue::after {
+    content: "";
+    background-image: url('../img/geral/nav-arrow-down.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 24px;
+    height: 24px;
+    margin-left: 24px;
+    flex-shrink: 0;
+    transform: none;
+}
+
+.accordion-button.card-style--blue:not(.collapsed)::after {
+    background-image: url('../img/geral/nav-arrow-up.svg');
+}
+
+@media (max-width: 768px) {
+    .accordion-button.card-style--blue {
+        max-width: 100%;
+        font-size: 16px;
+    }
+}
+
+/* ---------- Corpo: descolado do cabeçalho, sem borda, cantos completos ---------- */
+.accordion-body-p--blue {
+    width: 100%;
+    padding: 20px;
+    border-radius: 12px;
+    background: #E2EFFC;
+    margin-top: 12px;
+}
+
+/* ===== Card "Construindo esta etapa" (chamada com badge pendurada no canto superior esquerdo) ===== */
+.card-etapa {
+    position: relative;
+    background-color: #E2EFFC;
+    border-radius: 12px;
+    padding: 48px 32px 32px;
+    margin-top: 28px;
+    margin-bottom: 24px;
+}
+
+.card-etapa-badge {
+    position: absolute;
+    top: -22px;
+    left: 16px;
+    height: 56px;
+    width: auto;
+}
+
+.card-etapa p:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 576px) {
+    .card-etapa {
+        padding: 44px 20px 24px;
+    }
+
+    .card-etapa-badge {
+        top: -18px;
+        left: 12px;
+        height: 44px;
+    }
+}
+
+.card-secao {
+    position: relative;
+    background-color: #F0EEE4;
+    border-radius: 12px;
+    padding: 48px 32px 32px;
+    margin-top: 28px;
+    margin-bottom: 24px;
+}
+
+.card-secao-badge {
+    position: absolute;
+    top: -22px;
+    left: 16px;
+    height: 56px;
+    width: auto;
+}
+
+.card-secao p:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 576px) {
+    .card-secao {
+        padding: 44px 20px 24px;
+    }
+
+    .card-secao-badge {
+        top: -18px;
+        left: 12px;
+        height: 44px;
+    }
+}
+
+/* ===== Card de alerta (caixa com estrela) ===== */
+.card-alerta {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    max-width: 940px;
+    margin: 24px auto;
+    background: #E2EFFC;
+    border: 1.5px solid #0037D7;
+    border-radius: 16px;
+    padding: 20px 32px;
+}
+
+.card-alerta-estrela {
+    flex-shrink: 0;
+    width: 28px;
+    height: 28px;
+    margin-top: 4px;
+}
+
+.card-alerta p {
+    margin: 0 !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #22272A;
+}
+
+.card-alerta a {
+    color: #0037D7;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.card-alerta a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+    .card-alerta {
+        gap: 12px;
+        padding: 16px 20px;
+    }
+
+    .card-alerta-estrela {
+        width: 22px;
+        height: 22px;
+    }
+}
+
+/* ===== Carousel de itens (setas + caixa com estrela) ===== */
+
+.carousel-etica {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin: 24px 0;
+}
+
+.carousel-seta {
+    flex-shrink: 0;
+    width: 52px;
+    height: 52px;
+    padding: 0;
+    border: none;
+    background: transparent;
+    border-radius: 50%;
+    line-height: 0;
+    cursor: pointer;
+}
+
+.carousel-seta img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    pointer-events: none;
+}
+
+.carousel-seta:disabled {
+    cursor: not-allowed;
+}
+
+.carousel-seta:focus-visible {
+    outline: 2px solid #0037D7;
+    outline-offset: 2px;
+}
+
+.carousel-etica-caixa {
+    flex: 1 1 auto;
+    min-width: 0;
+    max-width: 788px;
+    min-height: 85px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background: #E2EFFC;
+    border: 1.5px solid #0037D7;
+    border-radius: 16px;
+    padding: 16px 24px;
+}
+
+.carousel-etica-estrela {
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+}
+
+.carousel-etica-item {
+    display: none;
+    margin: 0 !important;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #22272A;
+}
+
+.carousel-etica-item.ativo {
+    display: block;
+}
+
+@media (max-width: 576px) {
+    .carousel-etica {
+        gap: 8px;
+    }
+
+    .carousel-seta {
+        width: 40px;
+        height: 40px;
+    }
+
+    .carousel-etica-caixa {
+        padding: 12px 16px;
+        font-size: 16px;
+    }
+
+    .carousel-etica-item {
+        font-size: 16px;
+    }
+}
+
+/* ===== Botão e modal "Saiba mais" (mesmo estilo do card-destaque, em amarelo) ===== */
+
+.btn-saibamais {
+    display: block;
+    border: none;
+    background: transparent;
+    padding: 0;
+    margin: 8px auto 16px;
+    cursor: pointer;
+    line-height: 0;
+}
+
+.btn-saibamais img {
+    display: block;
+}
+
+.modal-saibamais .modal-dialog {
+    pointer-events: none;
+}
+
+.modal-saibamais .modal-content {
+    background: transparent;
+    border: none;
+}
+
+.card-saibamais {
+    pointer-events: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 16px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: -8px 4px 2px 2px #E9A80F;
+    padding: 24px 32px;
+    cursor: pointer;
+}
+
+.card-saibamais-icone {
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-saibamais-texto {
+    flex: 1 1 0;
+    min-width: 0;
+}
+
+.card-saibamais h4 {
+    color: #C47E0A;
+    font-weight: bold;
+    margin-top: 0 !important;
+    margin-bottom: 8px !important;
+}
+
+.card-saibamais p {
+    color: #22272A;
+    margin-bottom: 0 !important;
+}
+
+.roman-count {
+    color: white;
+    background-color: #0037D7;
+    border-radius: 100px;
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+    margin: 0 !important;
+}
+/* ===== Convivência com o framework PPU =====
+
+   1. O wrapper de página do framework tem padding lateral e display:table.
+      O banner e a barra de objetivo da unidade são faixas de largura total,
+      então aqui o wrapper vira um bloco sem padding — o recuo de leitura
+      passa a ser responsabilidade dos .container do próprio conteúdo. */
+
+#unasus-page-wrapper:has(#pag1) {
+    display: block;
+    max-width: none;
+    padding: 0;
+}
+
+/* 2. O reboot do Bootstrap 5 (ul/ol com padding-left e margin-bottom) e os
+      seletores de elemento acima (h2/li/p com margens !important) não devem
+      vazar para o chrome do framework: menu lateral, navegação do cabeçalho
+      e área de título. */
+
+#side-menu ul,
+#header-content-area ul {
+    margin: 0 !important;
+    padding-left: 0;
+    list-style: none;
+}
+
+#side-menu li,
+#header-content-area li {
+    margin: 0 !important;
+}
+
+#unasus-title-area h2 {
+    margin: 0 !important;
+}

@@ -51,9 +51,6 @@ export default {
       </section>
       <section>
         <div class="container py-5">
-          <ol id="secao-1" class="lista-outline" style="--secao: 3;">
-            <li></li>
-          </ol>
           <p>O cuidado em saúde no sistema prisional é desenvolvido em um contexto singular, marcado por especificidades institucionais, demandas complexas de saúde e desafios relacionados à garantia de direitos. Nesse cenário, os processos de trabalho das equipes de saúde assumem papel fundamental para a oferta de uma atenção integral, humanizada e resolutiva. Compreender como essas equipes se organizam e atuam é essencial para reconhecer as potencialidades e os limites da prática profissional no ambiente prisional.</p>
           <p>A atuação em equipe multiprofissional constitui um dos pilares da atenção à saúde das pessoas privadas de liberdade, exigindo integração entre diferentes saberes e práticas. O acolhimento, a escuta qualificada e a abordagem interdisciplinar favorecem a identificação das necessidades de saúde e a construção de planos de cuidado mais efetivos. Além disso, o uso de ferramentas de apoio à prática clínica, como protocolos, registros em saúde, discussão de casos e projetos terapêuticos, contribui para qualificar o processo de trabalho e fortalecer a coordenação do cuidado.</p>
           <p>Ao longo desta unidade, serão discutidos os principais aspectos relacionados à organização do trabalho das equipes de saúde no sistema prisional, destacando as estratégias utilizadas para enfrentar desafios cotidianos e promover a atenção integral.  Também serão abordadas questões éticas e institucionais que permeiam o cuidado nesse contexto, refletindo sobre os dilemas enfrentados pelos profissionais e a importância da atuação comprometida com os princípios do SUS e com os direitos humanos. </p>
@@ -73,7 +70,7 @@ export default {
           <img src="src/assets/img/unidade/img-3.svg" alt="" class="my-4 w-100">
           <p>Além disso, os profissionais frequentemente precisam conciliar demandas assistenciais imediatas com atividades de promoção da saúde, vigilância epidemiológica, educação em saúde e articulação com a rede externa.</p>
           <p>E, quando as equipes conseguem integrar diferentes olhares, compartilhar responsabilidades e construir projetos terapêuticos articulados, ampliam significativamente sua capacidade de produzir cuidado. E, assim, passam a reconhecer histórias, trajetórias e necessidades que frequentemente permanecem ocultas pelos muros da prisão. É nessa perspectiva que o trabalho em saúde prisional se aproxima dos princípios da atenção integral e da humanização.</p>
-          <ol id="secao-2" class="lista-outline lista-outline-sub" style="--secao: 3;">
+          <ol class="lista-outline lista-outline-sub" style="--secao: 3;">
             <li>Organização e gestão da equipe de saúde</li>
           </ol>
           <p>A garantia do direito à saúde das pessoas privadas de liberdade depende, em grande medida, do trabalho desenvolvido pelas eAPP. Essas equipes representam a principal porta de entrada do SUS dentro das unidades prisionais e desempenham papel fundamental na organização do cuidado, no acompanhamento das condições de saúde da população custodiada e na articulação com os demais serviços da rede de atenção.</p>
@@ -306,7 +303,7 @@ export default {
           <img src="src/assets/img/unidade/img-25.svg" alt="" class="w-100 my-4">
           <p>Fique atento à questão da confidencialidade: ao preencher sistemas de informações administrativas, você pode acabar revelando diagnósticos sensíveis (como HIV, hipertensão e diabetes) para membros da segurança que acessam o sistema. Portanto, utilize os dados de forma ética e lembre-se de que o e-SUS é a memória clínica da sua equipe, já os sistemas de informações administrativos podem ajudar você com a correlação entre itinerário terapêutico e carcerário. Além disso, é importante reforçar que nem toda unidade prisional contará com esse sistema.</p>
           <p>A efetivação da PNAISP não depende apenas da atuação das equipes, mas também da governança da informação. O desafio atual não é apenas produzir dados, e sim garantir que as informações geradas pelo SUS e pela SENAPPEN possam dialogar entre si, apoiando decisões clínicas, gerenciais e de financiamento.</p>
-          <ol id="secao-6" class="lista-outline" style="--secao: 3; --item: 6;">
+          <ol id="secao-6" class="lista-outline" style="--secao: 3; --item: 5;">
             <li>Planejamento de agendas e organização do cuidado</li>
           </ol>
           <p>A organização das agendas deve ser orientada pelo perfil epidemiológico da população atendida e pelas necessidades identificadas pela equipe. Pessoas com doenças crônicas, gestantes, idosos, indivíduos com tuberculose, HIV, transtornos mentais ou outras condições que exigem acompanhamento contínuo devem ter consultas programadas de acordo com critérios clínicos previamente estabelecidos.</p>

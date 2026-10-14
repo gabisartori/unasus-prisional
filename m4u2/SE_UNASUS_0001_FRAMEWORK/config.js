@@ -15,9 +15,8 @@ export default reactive({
         mais (o menu virou uma lista de tópicos da mesma página). O título do
         grupo continua sendo lido em templates/content/content.js.
     */
-    // TODO: Número da unidade
     titleGroup: {
-        group_1: 'Unidade',
+        group_1: 'Unidade 2',
     },
     extra: []
 })

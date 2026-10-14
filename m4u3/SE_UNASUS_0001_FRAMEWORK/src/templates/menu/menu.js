@@ -8,7 +8,6 @@ import { watchActiveSection } from '../../composables/sectionScroll.js'
     numeração com a que os contadores CSS de .lista-outline geram lá.
 */
 const sections = [
-    // TODO: Criar tópicos da página
     { id: 'secao-1', title: 'Processos de trabalho em saúde prisional' },
     { id: 'secao-2', title: 'Acolhimento humanizado e abordagem interdisciplinar' },
     { id: 'secao-3', title: 'Comissão Técnica de Classificação (CTC) e limites de atuação' },

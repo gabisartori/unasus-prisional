@@ -5,8 +5,7 @@ export default {
   emits: ['getData'],
   setup(props, ctx) {
     const navigation = inject('navigation')
-    // TODO: Título da página
-    const title = ''
+    const title = 'Unidade 1'
 
     const root = ref(null)
 
@@ -28,8 +27,7 @@ export default {
         <div class="container-fluid p-0">
           <div class="row align-items-center g-0 flex-nowrap">
             <div class="col banner-texto">
-              <!-- TODO: Nome do módulo -->
-              <h3 class="modulo-titulo mt-4"></h3>
+              <h3 class="modulo-titulo mt-4">Determinação social, iniquidades e interseccionalidades</h3>
               <h1 class="unidade-numero">Unidade 1</h1>
               <h1 class="unidade-subtitulo">Determinação social, iniquidades e interseccionalidades</h1>
             </div>

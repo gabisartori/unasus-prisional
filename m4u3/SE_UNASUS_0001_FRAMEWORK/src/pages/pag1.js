@@ -27,8 +27,7 @@ export default {
         <div class="container-fluid p-0">
           <div class="row align-items-center g-0 flex-nowrap">
             <div class="col banner-texto">
-              <!-- TODO: Nome do módulo -->
-              <h3 class="modulo-titulo mt-4"></h3>
+              <h3 class="modulo-titulo mt-4">Gestão da Atenção à Saúde e Coordenação do Cuidado no Sistema Prisional</h3>
               <h1 class="unidade-numero">Unidade 3</h1>
               <h1 class="unidade-subtitulo">Processos de trabalho e prática clínica no sistema prisional</h1>
             </div>

@@ -5,8 +5,7 @@ export default {
   emits: ['getData'],
   setup(props, ctx) {
     const navigation = inject('navigation')
-    // TODO: Título da página
-    const title = ''
+    const title = 'Unidade 3'
 
     const root = ref(null)
 

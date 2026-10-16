@@ -57,11 +57,12 @@ export default {
           <img class="my-auto w-100" src="src/assets/img/unidade/img-1.svg" alt="">
           <p>Nesse contexto, a interseccionalidade constitui uma importante ferramenta teórica, política e metodológica para compreender como diferentes sistemas de opressão atuam de forma simultânea e articulada (Crenshaw, 1989; Collins; Bilge, 2021). </p>
           <p>A perspectiva interseccional permite analisar como racismo, sexismo, LGBTfobia, xenofobia, capacitismo e outras formas de discriminação operam de maneira sobreposta, combinando-se na produção das desigualdades sociais e das iniquidades em saúde.</p>
+          <p>No Brasil, autoras como Carla Akotirene (2019) destacam que a interseccionalidade deve ser compreendida, além da soma de diferentes formas de discriminação, como uma ferramenta analítica capaz de revelar como estruturas de poder se articulam para produzir experiências específicas de exclusão e vulnerabilização.</p>
           <div class="split">
-            <p>No Brasil, autoras como Carla Akotirene (2019) destacam que a interseccionalidade deve ser compreendida, além da soma de diferentes formas de discriminação, como uma ferramenta analítica capaz de revelar como estruturas de poder se articulam para produzir experiências específicas de exclusão e vulnerabilização.</p>
+            <p>No sistema prisional, essa compreensão é particularmente relevante. O encarceramento não afeta todos os grupos da mesma forma. Mulheres negras, pessoas LGBTQIAPN+, população indígena, pessoas idosas, migrantes, estrangeiros e pessoas com deficiência enfrentam desafios específicos relacionados ao acesso aos serviços de saúde, à proteção institucional e à garantia de direitos.</p>
             <p>Ao incorporar a perspectiva interseccional, os profissionais de saúde ampliam sua capacidade de compreender as singularidades das trajetórias de vida e identificar necessidades frequentemente invisibilizadas por abordagens universalizantes ou aparentemente neutras. Analise o quadro a seguir, e depois reflita sobre as questões sugeridas.</p>
           </div>
-          <div class="w-80 mx-auto my-4">
+          <div style="width: 80%;" class="mx-auto mt-4">
             <img src="src/assets/img/unidade/table-1-1.svg" alt="" class="w-100">
             <div class="collapse" id="table-1">
               <img src="src/assets/img/unidade/table-1-2.svg" alt="" class="w-100">
@@ -70,12 +71,12 @@ export default {
               <img src="src/assets/img/unidade/table-1-3.svg" alt="" class="w-100">
             </a>
           </div>
+          <p class="mt-2 fs-6 text-center">Fonte: elaborado pelos autores</p>
           <p>Quantas dessas situações podem estar presentes no cotidiano da sua prática profissional sem que sejam imediatamente reconhecidas? De que maneira a incorporação de uma perspectiva interseccional pode contribuir para a construção de planos terapêuticos mais adequados às necessidades das pessoas privadas de liberdade?</p>
           <ol id="secao-2" class="lista-outline" style="--secao: 2; --item: 1;">
             <li>Racismo estrutural e saúde</li>
           </ol>
-          <p>O sistema prisional brasileiro expressa, de modo contundente, os efeitos do racismo estrutural e da seletividade penal. </p>
-          <p>A população privada de liberdade é majoritariamente composta por pessoas negras (Brasil, 2026), evidenciando a permanência de mecanismos de controle racial que se originam na escravização, se reconfiguram no pós-abolição sem reparação e se expressam, na contemporaneidade, por meio da criminalização da pobreza e de determinadas políticas de segurança pública.</p>
+          <p>O sistema prisional brasileiro expressa, de modo contundente, os efeitos do racismo estrutural e da seletividade penal. A população privada de liberdade é majoritariamente composta por pessoas negras (Brasil, 2026), evidenciando a permanência de mecanismos de controle racial que se originam na escravização, se reconfiguram no pós-abolição sem reparação e se expressam, na contemporaneidade, por meio da criminalização da pobreza e de determinadas políticas de segurança pública.</p>
           <img src="src/assets/img/unidade/img-2.svg" alt="" class="my-4 w-100">
           <div class="split">
             <p>Silvio Almeida (2019) define o racismo estrutural como um sistema que organiza as instituições e distribui oportunidades e direitos de maneira desigual entre grupos raciais. No campo da saúde, isso se traduz em diferentes formas de discriminação institucional, invisibilização do sofrimento, acesso desigual ao cuidado e exposição ampliada a condições de adoecimento.</p>
@@ -94,7 +95,7 @@ export default {
           <p>Por outro lado, a experiência no sistema prisional permanece gerando violências e evidencia a sobreposição de iniquidades, uma vez que reflete desrespeito aos costumes próprios das comunidades indígenas. Além disso, quando custodiados em unidades prisionais, os indígenas não apresentam suas particularidades culturais respeitadas, tais como rituais religiosos e alimentação (Assunção; Jung, 2019).</p>
           <p>Um marco importante para a garantia dos direitos da população indígena em conflito com a lei foi a aprovação da Resolução nº 287, pelo Conselho Nacional de Justiça (CNJ), em 25 de junho de 2019.</p>
           <img src="src/assets/img/unidade/img-5.svg" alt="">
-          <div class="split">
+          <div class="split" style="margin-top: 20px;">
             <p>Embora o ordenamento jurídico brasileiro já previsse dispositivos voltados à proteção dos povos indígenas, amparados tanto pela legislação nacional quanto por tratados internacionais ratificados pelo Brasil, permanecia uma lacuna quanto à atuação do Poder Judiciário diante das especificidades das pessoas indígenas em situação de privação de liberdade. </p>
             <p>Nesse contexto, a Resolução nº 287 representa um avanço ao orientar a adoção de práticas que considerem as particularidades étnicas, culturais e sociais dessa população no sistema prisional brasileiro, sobretudo por estabelecer procedimentos em consonância com as diretrizes e princípios do SUS, como equidade, integralidade, participação social (por meio do saber cultural específico) e acesso universal.</p>
           </div>
@@ -157,8 +158,7 @@ export default {
           <p>Esses fatores afetam de maneira particularmente intensa grupos historicamente marginalizados, como pessoas negras, mulheres, pessoas LGBTQIAPN+, pessoas idosas, migrantes e pessoas com deficiência.</p>
           <p>Diante desse cenário, a atuação dos profissionais de saúde exige, além de competência técnico-científica, também o compromisso ético com os direitos humanos, a capacidade crítica para identificar vulnerabilidades e a sensibilidade para reconhecer como diferentes marcadores sociais atravessam os processos de saúde e adoecimento.</p>
           <img src="src/assets/img/unidade/img-11.svg" alt="" class="mx-auto d-block w-80 my-4">
-          <p>Além de reconhecer diferenças entre indivíduos e grupos sociais, a perspectiva interseccional convida os profissionais a compreenderem como essas diferenças são socialmente produzidas e transformadas em desigualdades por meio da articulação entre racismo, sexismo, LGBTfobia, capacitismo, xenofobia e outras formas de opressão (Crenshaw, 1989; Collins; Bilge, 2021; Akotirene, 2019). </p>
-          <p>Para a prática clínica, isso significa ter atenção às seguintes ações, acompanhe:</p>
+          <p>Além de reconhecer diferenças entre indivíduos e grupos sociais, a perspectiva interseccional convida os profissionais a compreenderem como essas diferenças são socialmente produzidas e transformadas em desigualdades por meio da articulação entre racismo, sexismo, LGBTfobia, capacitismo, xenofobia e outras formas de opressão (Crenshaw, 1989; Collins; Bilge, 2021; Akotirene, 2019). Para a prática clínica, isso significa ter atenção às seguintes ações, acompanhe:</p>
           <img src="src/assets/img/unidade/img-12.svg" alt="" class="mx-auto d-block w-80 my-4">
           <ol id="secao-7" class="lista-outline" style="--secao: 2; --item: 6;">
             <li>Impactos na saúde e o papel das equipes de saúde na perspectiva dos Direitos Humanos</li>
@@ -169,8 +169,10 @@ export default {
           <img src="src/assets/img/unidade/img-13.svg" alt="" class="mx-auto d-block w-80 my-4">
           <p>Considerando as especificidades do cuidado em saúde no sistema prisional, a escuta qualificada e a clínica ampliada constituem estratégias fundamentais para qualificar as práticas assistenciais. Essa perspectiva dialoga diretamente com a atuação das equipes de saúde orientada pelos Direitos Humanos, uma vez que, conforme argumentam Campos e Amaral (2007), propõe uma metodologia organizacional capaz de articular a necessária padronização das condutas terapêuticas às singularidades dos sujeitos e às condições concretas impostas pelo contexto da privação de liberdade.</p>
           <img src="src/assets/img/unidade/img-14.svg" alt="" class="mx-auto d-block w-80 my-4">
-          <p>Nessa perspectiva, a reorganização do processo de trabalho das equipes de saúde desloca o foco da doença para a produção do cuidado centrado na pessoa, considerando sua trajetória de vida, seus direitos e as condições sociais que atravessam o processo saúde-doença. </p>
-          <p>Assim, a elaboração do projeto terapêutico deve estar ancorada em um olhar político e ampliado, orientado pelos seguintes aspectos descritos por Campos e Amaral (2007), conforme podem ser verificados a seguir.</p>
+          <div class="split">
+            <p>Nessa perspectiva, a reorganização do processo de trabalho das equipes de saúde desloca o foco da doença para a produção do cuidado centrado na pessoa, considerando sua trajetória de vida, seus direitos e as condições sociais que atravessam o processo saúde-doença. </p>
+            <p>Assim, a elaboração do projeto terapêutico deve estar ancorada em um olhar político e ampliado, orientado pelos seguintes aspectos descritos por Campos e Amaral (2007), conforme podem ser verificados a seguir.</p>
+          </div>
           <img src="src/assets/img/unidade/img-15.svg" alt="" class="mx-auto d-block w-80 my-4">
           <div class="split">
             <p>Assim, fundamentar as práticas em saúde nos Direitos Humanos implica compreender a escuta qualificada e a clínica ampliada como dispositivos capazes de incorporar as condições concretas de vida das pessoas privadas de liberdade ao planejamento e à produção do cuidado. </p>

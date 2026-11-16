@@ -24,20 +24,19 @@ export default {
   template: `
     <div id="pag1" ref="root">
       <section class="banner-unidade">
+        <img src="./src/assets/img/geral/Ellipse 177.svg" class="banner-ellipse" alt="">
         <div class="container-fluid p-0">
           <div class="row align-items-center g-0 flex-nowrap">
             <div class="col banner-texto">
-              <h3 class="modulo-titulo mt-4">Determinação social, iniquidades e interseccionalidades</h3>
               <h1 class="unidade-numero">Unidade 1</h1>
-              <h1 class="unidade-subtitulo">Determinação social, iniquidades e interseccionalidades</h1>
+              <h1 class="unidade-subtitulo">O Projeto Mais Médicos <br> e a atuação médica no sistema prisional</h1>
             </div>
             <div class="col-auto banner-imagem">
-              <!-- TODO: Nome do módulo -->
-              <img src="./src/assets/img/geral/título.png" alt="">
+              <img src="./src/assets/img/geral/Group 1641.svg" alt="">
             </div>
           </div>
         </div>
-      </section>
+      </section>      
       <section class="barra-objetivo">
         <div class="container px-5 py-4">
           <div class="row">
@@ -51,7 +50,7 @@ export default {
       <section>
         <div class="container py-5">
            <ol class="lista-outline" style="--secao: 1;">
-              <li>Determinação social da saúde no contexto prisional</li>
+            <li id="first">Determinação social da saúde no contexto prisional</li>
           </ol>
           <p>Ao iniciar esta unidade, convidamos você a refletir sobre uma questão fundamental para a prática em saúde prisional.</p>
           <img src="src/assets/img/unidade/img-1.svg" alt="" class="w-80 mx-auto d-block my-4">
@@ -160,6 +159,19 @@ export default {
                       </div>
                   </div>
               </div>
+            </div>
+          </div>
+          <!-- Buttons -->
+          <div class="row pt-5">
+            <div class="col-12 text-center">
+              <nav class="nav-unidades" aria-label="Navegação entre unidades">
+                <a href="https://unasus-dev.moodle.ufsc.br/course/view.php?id=9" class="nav-unidades-seta nav-unidades-anterior" aria-label="Voltar para o curso">
+                  <span aria-hidden="true">&larr; Voltar</span>
+                </a>
+                <a href="https://unasus-dev.moodle.ufsc.br/mod/ppuunasus/view.php?id=28" class="nav-unidades-seta nav-unidades-proxima" aria-label="Ir para a unidade 2">
+                  <span aria-hidden="true">Seguir &rarr;</span>
+                </a>
+              </nav>
             </div>
           </div>
         </div>

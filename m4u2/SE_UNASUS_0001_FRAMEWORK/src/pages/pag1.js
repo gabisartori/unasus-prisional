@@ -195,6 +195,19 @@ export default {
               </div>
             </div>
           </div>
+          <!-- Buttons -->
+          <div class="row pt-5">
+            <div class="col-12 text-center">
+              <nav class="nav-unidades" aria-label="Navegação entre unidades">
+                <a href="https://unasus-dev.moodle.ufsc.br/mod/ppuunasus/view.php?id=62" class="nav-unidades-seta nav-unidades-anterior" aria-label="Voltar para a unidade 1">
+                  <span aria-hidden="true">&larr; Voltar</span>
+                </a>
+                <a href="https://unasus-dev.moodle.ufsc.br/mod/ppuunasus/view.php?id=64" class="nav-unidades-seta nav-unidades-proxima" aria-label="Ir para a unidade 3">
+                  <span aria-hidden="true">Seguir &rarr;</span>
+                </a>
+              </nav>
+            </div>
+          </div>
         </div>
       </section>
     </div>

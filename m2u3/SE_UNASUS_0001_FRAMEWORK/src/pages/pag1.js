@@ -199,8 +199,21 @@ export default {
               </div>
             </div>
           </div>
+          <!-- Buttons -->
+          <div class="row pt-5">
+            <div class="col-12 text-center">
+              <nav class="nav-unidades" aria-label="Navegação entre unidades">
+                <a href="https://unasus-dev.moodle.ufsc.br/mod/ppuunasus/view.php?id=28" class="nav-unidades-seta nav-unidades-anterior" aria-label="Voltar para a unidade 2">
+                  <span aria-hidden="true">&larr; Voltar</span>
+                </a>
+                <a href="https://unasus-dev.moodle.ufsc.br/course/view.php?id=9" class="nav-unidades-seta nav-unidades-proxima" aria-label="Ir para o curso">
+                  <span aria-hidden="true">Seguir &rarr;</span>
+                </a>
+              </nav>
+            </div>
+          </div>
+
         </div>
       </section>
-    </div>
   `
 }

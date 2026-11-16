@@ -199,7 +199,7 @@ export default {
                         <p>BENTO, Berenice. Transviad@s: gênero, sexualidade e direitos humanos. Salvador: EDUFBA, 2017.</p>
                         <p>BRASIL. Fundação Nacional de Saúde. Política Nacional de Atenção à Saúde dos Povos Indígenas. 2. ed. Brasília: Ministério da Saúde, 2002</p>
                         <p>BRASIL. Ministério da Saúde. Política Nacional de Saúde Integral da População Negra. Brasília: Ministério da Saúde, 2017.</p>
-                        <p>BRASIL. Portaria Interministerial nº 1, de 2 de janeiro de 2014. Institui a Política Nacional de Atenção Integral à Saúde das Pessoas Privadas de Liberdade no Sistema Prisional (PNAISP) no âmbito do Sistema Único de Saúde (SUS). Brasília, DF: Ministério da Saúde/Ministério da Justiça, 2014. Disponível em: https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/prt2436_22_09_2017.html. Acesso em: 1 jul. 2026.</p>
+                        <p>BRASIL. Portaria Interministerial nº 1, de 2 de janeiro de 2014. Institui a Política Nacional de Atenção Integral à Saúde das Pessoas Privadas de Liberdade no Sistema Prisional (PNAISP) no âmbito do Sistema Único de Saúde (SUS). Brasília, DF: Ministério da Saúde/Ministério da Justiça, 2014. Disponível em: https://bvsms.saude.gov.br/bvs/saudelegis/gm/2014/pri0001_02_01_2014.html. Acesso em: 1 jul. 2026.</p>
                         <p>BRASIL. Ministério da Saúde. Política Nacional de Saúde Integral de Lésbicas, Gays, Bissexuais, Travestis e Transexuais. Brasília: Ministério da Saúde, 2013.</p>
                         <p>BRASIL. Conselho Nacional de Justiça, 2019. Resolução 287, de 25 de junho de 2019. Disponível em: Acesso em: 04 ago 2026.</p>
                         <p>BREILH, Jaime. Epidemiologia crítica: ciência emancipadora e interculturalidade. Rio de Janeiro: Fiocruz, 2006.</p>
@@ -227,6 +227,19 @@ export default {
                       </div>
                   </div>
               </div>
+            </div>
+          </div>
+          <!-- Buttons -->
+          <div class="row pt-5">
+            <div class="col-12 text-center">
+              <nav class="nav-unidades" aria-label="Navegação entre unidades">
+                <a href="https://unasus-dev.moodle.ufsc.br/mod/ppuunasus/view.php?id=27" class="nav-unidades-seta nav-unidades-anterior" aria-label="Voltar paraa unidade 1">
+                  <span aria-hidden="true">&larr; Voltar</span>
+                </a>
+                <a href="https://unasus-dev.moodle.ufsc.br/mod/ppuunasus/view.php?id=29" class="nav-unidades-seta nav-unidades-proxima" aria-label="Ir para a unidade 3">
+                  <span aria-hidden="true">Seguir &rarr;</span>
+                </a>
+              </nav>
             </div>
           </div>
         </div>

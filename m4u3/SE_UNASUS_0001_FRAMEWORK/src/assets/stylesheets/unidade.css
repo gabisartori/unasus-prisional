@@ -1244,3 +1244,29 @@ p {
 #unasus-title-area h2 {
     margin: 0 !important;
 }
+
+.nav-unidades {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-unidades-anterior {
+    display: block;
+    font-weight: 600;
+    border-radius: 64px;
+    border: 2px solid #0037D7;
+    color: #0037D7;
+    text-decoration: none;
+    padding: 14px 32px;
+    font-size: 20px;
+}
+.nav-unidades-proxima {
+    display: block;
+    font-weight: 600;
+    border-radius: 64px;
+    background-color: #0037D7;
+    color: white;
+    text-decoration: none;
+    padding: 14px 32px;
+    font-size: 20px;
+}

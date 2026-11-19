@@ -28,7 +28,6 @@ export default {
           <div class="row align-items-center g-0 flex-nowrap">
             <div class="col banner-texto">
               <!-- TODO: Nome do módulo -->
-              <h3 class="modulo-titulo mt-4"></h3>
               <h1 class="unidade-numero">Unidade 2</h1>
               <h1 class="unidade-subtitulo">Coordenação do cuidado e redes de atenção à saúde</h1>
             </div>
@@ -65,10 +64,13 @@ export default {
           </ol>
           <p>Imagine o caminho que uma pessoa percorre quando adoece.</p>
           <img src="src/assets/img/unidade/img-1.svg" alt="" class="my-4 w-100">
-          <div class="split">
-            <p>Para que esse percurso faça sentido, alguém precisa costurar as pontas: reunir as informações, acompanhar o que foi decidido em cada ponto e garantir que nada se perca pelo caminho. A esse trabalho de costura damos o nome de coordenação do cuidado. A coordenação do cuidado é um dos atributos essenciais da APS. Ela consiste na capacidade de reconhecer os problemas que exigem acompanhamento ao longo do tempo e de articular, de maneira coerente, os diferentes serviços pelos quais a pessoa transita, de modo que cada um saiba o que o outro já fez (Starfield, 2002). Além de encaminhar, trata-se de manter o fio contínuo da história clínica, mesmo quando o cuidado é prestado em lugares e por equipes diferentes.</p>
-            <p>No sistema prisional, esse atributo ganha contornos próprios. Pessoas que vivem com hipertensão, dor crônica, tuberculose, HIV ou sofrimento mental precisam de muito mais do que consultas isoladas: necessitam de uma sequência organizada de ações que, quase sempre, atravessa os muros da unidade e depende de atores que não pertencem à saúde. </p>
-            <p class="pt-3">Coordenar o cuidado, aqui, significa sustentar a continuidade em um ambiente marcado pela privação de liberdade, pela rotatividade da população custodiada e pela necessidade permanente de articulação com a segurança e com os demais pontos da rede.</p>
+          <div class="row">
+            <div class="col">
+              <p>Para que esse percurso faça sentido, alguém precisa costurar as pontas: reunir as informações, acompanhar o que foi decidido em cada ponto e garantir que nada se perca pelo caminho. A esse trabalho de costura damos o nome de coordenação do cuidado. A coordenação do cuidado é um dos atributos essenciais da APS. Ela consiste na capacidade de reconhecer os problemas que exigem acompanhamento ao longo do tempo e de articular, de maneira coerente, os diferentes serviços pelos quais a pessoa transita, de modo que cada um saiba o que o outro já fez (Starfield, 2002). Além de encaminhar, trata-se de manter o fio contínuo da história clínica, mesmo quando o cuidado é prestado em lugares e por equipes diferentes.</p>
+            </div>
+            <div class="col">
+              <p>No sistema prisional, esse atributo ganha contornos próprios. Pessoas que vivem com hipertensão, dor crônica, tuberculose, HIV ou sofrimento mental precisam de muito mais do que consultas isoladas: necessitam de uma sequência organizada de ações que, quase sempre, atravessa os muros da unidade e depende de atores que não pertencem à saúde. Coordenar o cuidado, aqui, significa sustentar a continuidade em um ambiente marcado pela privação de liberdade, pela rotatividade da população custodiada e pela necessidade permanente de articulação com a segurança e com os demais pontos da rede.</p>
+            </div>
           </div>
           <img src="src/assets/img/unidade/img-2.svg" alt="" class="my-4 w-80 d-block mx-auto">
           <ol id="secao-2-1" class="lista-outline lista-outline-sub" style="--secao: 2;">
@@ -105,13 +107,12 @@ export default {
           <ol id="secao-4" class="lista-outline" style="--secao: 2; --item: 2;">
             <li>Itinerário da pessoa privada de liberdade na rede</li>
           </ol>
-          <p>Chamamos de <strong>itinerário</strong> o percurso que a pessoa faz pelos serviços de saúde e, no caso da população prisional, também pelas diferentes unidades penais ao longo do cumprimento da pena. </p>
-          <p>Esse percurso é feito de idas e vindas, conforme pode ser visto a seguir.</p>
+          <p>Chamamos de <strong>itinerário</strong> o percurso que a pessoa faz pelos serviços de saúde e, no caso da população prisional, também pelas diferentes unidades penais ao longo do cumprimento da pena. Esse percurso é feito de idas e vindas, conforme pode ser visto a seguir.</p>
           <img src="src/assets/img/unidade/img-4.svg" alt="" class="mx-auto">
           <p>O itinerário da população prisional é, portanto, atravessado por duas ordens de barreiras que se sobrepõem: as barreiras de acesso à saúde, que discutimos, e as barreiras da segurança, ligadas à logística de transporte, às condições de escolta e às normas de cada unidade. É no encontro dessas duas lógicas, a do cuidado e a da custódia, que o cuidado precisa abrir caminho.</p>
           <div class="split">
             <p>Reconhecer a prisão como território de atuação da APS ajuda a enxergar esse itinerário. O ambiente prisional é um território vivo, com perfis epidemiológicos, vulnerabilidades e fluxos próprios. Compreendê-lo permite antecipar os pontos em que o cuidado costuma se romper, em especial, os momentos de transição, e planejar ações para sustentá-lo (Teixeira Junior, 2024).</p>
-            <p>E é justamente nas transições que mora o maior risco. Sempre que a pessoa muda de regime ou é transferida de uma instituição penal para outra, abre-se uma brecha por onde a informação pode escapar. Para fechar essa brecha, as equipes lançam mão de uma prática que merece atenção: o bonde — termo do cotidiano prisional usado para nomear a movimentação de pessoas entre unidades. </p>
+            <p>E é justamente nas transições que mora o maior risco. Sempre que a pessoa muda de regime ou é transferida de uma instituição penal para outra, abre-se uma brecha por onde a informação pode escapar. Para fechar essa brecha, as equipes lançam mão de uma prática que merece atenção: o <strong>bonde</strong> — termo do cotidiano prisional usado para nomear a movimentação de pessoas entre unidades. </p>
           </div>
           <img src="src/assets/img/unidade/img-5.svg" alt="" class="mx-auto d-block w-80 my-4">
           <p>Nas duas próximas seções, olhamos com mais cuidado para os dois extremos desse itinerário: a porta de entrada, quando a pessoa ingressa no sistema, e a porta de saída, quando ela retorna à comunidade. Em ambos, a lógica do bonde (preparar a saída e organizar a chegada) é o que torna a continuidade possível.</p>
@@ -153,7 +154,7 @@ export default {
           <img src="src/assets/img/unidade/img-8.svg" alt="" class="w-100 mx-auto d-block">
           <p>Toda essa combinação faz com que seja provável que esse egresso acabe em situação de rua ou reincidindo no sistema carcerário de forma precoce transição (Karam, 2015). Nesse contexto, surgem os Escritórios Sociais.</p>
           <div class="split">
-            <p>Os Escritórios Sociais são equipamentos públicos de gestão compartilhada entre o Poder Judiciário e o Executivo, instituídos como o pilar central para a execução da Política Nacional de Atenção às Pessoas Egressas do Sistema Prisional (instituída pela Resolução CNJ nº 307/2019). Eles têm como função realizar o acolhimento e o encaminhamento de pessoas egressas e seus familiares para as redes de proteção social e políticas públicas existentes.</p>
+            <p>Os <strong>Escritórios Sociais</strong> são equipamentos públicos de gestão compartilhada entre o Poder Judiciário e o Executivo, instituídos como o pilar central para a execução da Política Nacional de Atenção às Pessoas Egressas do Sistema Prisional (instituída pela Resolução CNJ nº 307/2019). Eles têm como função realizar o acolhimento e o encaminhamento de pessoas egressas e seus familiares para as redes de proteção social e políticas públicas existentes.</p>
             <p>Antes da formalização nacional, o modelo do Escritório Social já operava como iniciativas locais precursoras, notadamente nos estados do Espírito Santo e Paraná, que serviram de referência para o Conselho Nacional de Justiça (CNJ). A institucionalização nacional ocorreu com a Resolução nº 307/2019, que centralizou as ações de atenção aos egressos nesses escritórios, buscando superar a fragmentação de serviços e a baixa institucionalidade das iniciativas anteriores. </p>
           </div>
           <p>No âmbito da política nacional, o Escritório Social funciona como o nó de articulação que conecta o sistema de justiça penal às políticas sociais universais. Conheça, a seguir, os objetivos desses espaços. </p>
@@ -175,7 +176,7 @@ export default {
             <p>Além de conhecer conceitos e fluxos, você foi convidado a enxergar a pessoa privada de liberdade em toda a sua trajetória de cuidado. Cada consulta, encaminhamento, transferência, progressão de regime ou retorno à comunidade representa uma oportunidade de fortalecer ou interromper esse percurso. A diferença entre essas possibilidades depende, em grande medida, da capacidade da equipe de coordenar o cuidado de forma integrada, humanizada e articulada com os setores de segurança e justiça.</p>
             <p>Agora, o desafio é incorporar esse olhar à sua prática cotidiana. Em qualquer unidade prisional onde você atue, sua capacidade de articular a rede, registrar informações de forma qualificada, construir vínculos e planejar as transições pode fazer a diferença entre um cuidado fragmentado e um cuidado contínuo. Ao assumir esse compromisso, você fortalece a APS, contribui para a efetivação da PNAISP e reafirma os princípios do SUS, promovendo um cuidado integral e comprometido com a dignidade e os direitos humanos.</p>
           </div>
-          <div class="accordion" id="accordionReferencias">
+          <div class="accordion mt-4" id="accordionReferencias">
             <div class="accordion-item">
                 <h4 class="accordion-header" id="headingReferencias">
                   <button class="accordion-button card-style--white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#painelReferencias" aria-expanded="false" aria-controls="painelReferencias">

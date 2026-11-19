@@ -27,9 +27,8 @@ export default {
         <div class="container-fluid p-0">
           <div class="row align-items-center g-0 flex-nowrap">
             <div class="col banner-texto">
-              <h3 class="modulo-titulo mt-4">Gestão da Atenção à Saúde e Coordenação do Cuidado no Sistema Prisional</h3>
               <h1 class="unidade-numero">Unidade 1</h1>
-              <h1 class="unidade-subtitulo">Determinação social, iniquidades e interseccionalidades</h1>
+              <h3 class="modulo-titulo mt-4">Organização da atenção à saúde no sistema prisional e PNAISP</h3>
             </div>
             <div class="col-auto banner-imagem">
               <!-- TODO: Nome do módulo -->
@@ -70,8 +69,8 @@ export default {
           <img src="src/assets/img/unidade/img-3.svg" alt="" class="mx-auto my-4 d-block w-100">
           <div class="split">
             <p>A RAS é composta por serviços de saúde do SUS. Vale lembrar que para que seja possível atender às necessidades da pessoa, é importante acionar recursos disponíveis provenientes das diferentes políticas públicas vigentes. O Sistema Único de Assistência Social (SUAS), os órgãos da justiça e da segurança pública, os conselhos de direitos e as entidades da sociedade civil não integram a RAS, mas compõem a rede intersetorial com a qual a saúde prisional precisa se articular para enfrentar os determinantes sociais. Essa articulação é dinâmica e se organiza conforme a realidade de cada território, por isso a equipe deve conhecer e acionar os parceiros disponíveis no seu contexto local.</p>
-            <p>A assistência farmacêutica também faz parte da RAS das pessoas privadas de liberdade e é consolidada por meio da Relação Nacional de Medicamentos Essenciais (RENAME). É importante saber que os medicamentos disponíveis na sua UBSP são os mesmos das UBS para pessoas extramuros.
-            </p>
+            <p>A assistência farmacêutica também faz parte da RAS das pessoas privadas de liberdade e é consolidada por meio da Relação Nacional de Medicamentos Essenciais (RENAME). É importante saber que os medicamentos disponíveis na sua UBSP são os mesmos das UBS para pessoas extramuros.</p>
+            <p>Sobre a escolha destes insumos no SUS, destaca-se que o Ministério da Saúde é o órgão competente pela gestão e organização da política de saúde nacional, e a competência legal de dispor sobre a RENAME e os Protocolos Clínicos (PCDT) pertence à Comissão Intergestores Tripartite (CIT). </p>
             <button type="button" class="btn-saibamais mx-0" data-bs-toggle="modal" data-bs-target="#modal-1">
               <img src="./src/assets/img/geral/saibamais-botao.svg" alt="Saiba mais">
             </button>
@@ -91,7 +90,6 @@ export default {
               </div>
             </div>
           </div>
-          <p>Sobre a escolha destes insumos no SUS, destaca-se que o Ministério da Saúde é o órgão competente pela gestão e organização da política de saúde nacional, e a competência legal de dispor sobre a RENAME e os Protocolos Clínicos (PCDT) pertence à Comissão Intergestores Tripartite (CIT). </p>
           <p>O Ministério da Saúde consolidava e publicava as atualizações da RENAME a cada dois anos. No entanto, a RENAME passou a contar com um modelo de atualização dinâmica e em tempo real para modernizar o acesso à lista. Vários desafios dificultam a efetivação desse modelo de atenção, e é importante reconhecer que as barreiras ao cuidado de qualidade não estão de um lado só. Elas se originam tanto no sistema penal-carcerário quanto no próprio sistema de saúde, havendo barreiras de acesso em ambos.</p>
           <p>Por isso, a atenção à saúde no sistema prisional deve ser compreendida como uma responsabilidade compartilhada entre os gestores da saúde, da administração penitenciária e das demais políticas públicas, resumido pelo tripé saúde-segurança-justiça. Discutir a saúde das pessoas privadas de liberdade, além de contribuir para a proteção da dignidade humana intramuros, também fortalece toda a comunidade, uma vez que, além das pessoas privadas de liberdade, este sistema conta com familiares e profissionais da saúde e da segurança pública.</p>
           <div class="split">
@@ -183,9 +181,8 @@ export default {
           <ol id="secao-2" class="lista-outline" style="--secao: 1; --item: 1">
             <li>Competências dos entes federativos na implementação da PNAISP</li>
           </ol>
-          <p>A organização da saúde no sistema prisional reflete o próprio modelo federativo do SUS, no qual União, estados e municípios compartilham responsabilidades. Diferentemente de um modelo centralizado, a PNAISP foi estruturada para que cada esfera de governo exerça funções complementares, respeitando as competências previstas na Constituição Federal de 1988 e na Lei Orgânica da Saúde (Lei nº 8.080/1990).</p>
-          <p>Essa divisão de responsabilidades permite que a formulação das políticas ocorra em âmbito nacional, enquanto a organização dos serviços e a oferta do cuidado sejam adaptadas às realidades regionais e locais. Ao mesmo tempo, exige intensa cooperação entre gestores da saúde e da administração prisional, uma vez que a atenção à saúde das pessoas privadas de liberdade envolve tanto o sistema de saúde quanto o sistema de justiça e segurança pública.</p>
-          <p>Conheça, a seguir, as especificidades da União, dos estados e dos municípios brasileiros.</p>
+          <p>A organização da saúde no sistema prisional reflete o próprio modelo federativo do SUS, no qual União, estados e municípios compartilham responsabilidades. Diferentemente de um modelo centralizado, a PNAISP foi estruturada para que cada esfera de governo exerça funções complementares, respeitando as competências previstas na Constituição Federal de 1988 e na Lei Orgânica da Saúde (Lei nº 8.080/1990). Essa divisão de responsabilidades permite que a formulação das políticas ocorra em âmbito nacional, enquanto a organização dos serviços e a oferta do cuidado sejam adaptadas às realidades regionais e locais.</p>
+          <p>Ao mesmo tempo, exige intensa cooperação entre gestores da saúde e da administração prisional, uma vez que a atenção à saúde das pessoas privadas de liberdade envolve tanto o sistema de saúde quanto o sistema de justiça e segurança pública. Conheça, a seguir, as especificidades da União, dos estados e dos municípios brasileiros.</p>
           <img src="src/assets/img/unidade/img-7.svg" alt="" class="my-4 w-100">
           <p>Embora as competências estejam distribuídas entre União, estados e municípios, a efetividade da PNAISP depende da atuação integrada entre essas três esferas de governo. A fragmentação das responsabilidades pode gerar lacunas na assistência quando não há mecanismos eficientes de comunicação, planejamento e financiamento.</p>
           <p>Situações como encaminhamento para consultas especializadas, transporte de pessoas privadas de liberdade, fornecimento de medicamentos de alto custo ou realização de exames complexos frequentemente exigem a participação simultânea de diferentes gestores. Assim, o sucesso da política depende menos da atuação isolada de cada ente e mais da capacidade de cooperação interfederativa.</p>
@@ -309,7 +306,7 @@ export default {
           </div>
           <p>Assim, além da disponibilidade de recursos financeiros, é necessário que gestores e equipes de saúde desenvolvam adequadamente todas as etapas do ciclo da Assistência Farmacêutica, que devem incluir os itens descritos a seguir.</p>
           <img src="src/assets/img/unidade/img-11.svg" alt="">
-          <div class="split">
+          <div class="split mt-4">
             <p>No contexto prisional, essas atividades assumem características próprias. As unidades prisionais apresentam elevada frequência de doenças transmissíveis, transtornos mentais, dependência de álcool e outras drogas, doenças crônicas, agravos relacionados à saúde bucal e elevada demanda por medicamentos de uso contínuo. Dessa forma, a programação da assistência farmacêutica deve considerar o perfil epidemiológico da população privada de liberdade, evitando tanto a falta quanto o desperdício de medicamentos.</p>
             <p>Outro aspecto relevante é que os medicamentos disponibilizados pelo CBAF devem estar em conformidade com a RENAME e com as listas estaduais e municipais de medicamentos, respeitando as pactuações realizadas entre os gestores do SUS. A seleção de medicamentos baseia-se em critérios científicos, epidemiológicos e de custo-efetividade, buscando assegurar o acesso às terapias consideradas essenciais para atender aos principais problemas de saúde da população.</p>
           </div>
@@ -332,8 +329,7 @@ export default {
             <p>Um prontuário preenchido corretamente, um cadastro atualizado no CNES ou o lançamento oportuno da produção assistencial não representam apenas exigências administrativas, mas são informações essenciais para demonstrar que o atendimento está sendo ofertado e para subsidiar o planejamento das políticas públicas.</p>
           </div>
           <p>Quando esses requisitos são atendidos, o Ministério da Saúde consegue acompanhar o funcionamento das equipes, avaliar a execução da política, monitorar indicadores assistenciais e assegurar a continuidade do repasse financeiro. Dessa forma, a validação fortalece a qualidade da atenção ofertada, amplia a transparência na aplicação dos recursos públicos e contribui para o aperfeiçoamento da gestão da saúde no sistema prisional.</p>
-          <p>Neste sentido, registrar informações é uma atividade diretamente relacionada ao financiamento, ao planejamento, à avaliação da política e, principalmente, à garantia do direito à saúde.</p>
-          <p>Depois do que lhe foi explicado, como você responderia à seguinte pergunta:</p>
+          <p>Neste sentido, registrar informações é uma atividade diretamente relacionada ao financiamento, ao planejamento, à avaliação da política e, principalmente, à garantia do direito à saúde. Depois do que lhe foi explicado, <strong>como você responderia à seguinte pergunta:</strong></p>
           <div class="mx-auto my-4 p-4" style="border: 6px solid #DFDAC9; border-radius: 16px; width: 80%;">
             <p class="fw-bold">De acordo com a PNAISP, qual das alternativas apresenta um requisito necessário para que uma Equipe de Atenção Primária Prisional (eAPP) mantenha sua validação e o financiamento federal?</p>
             <ol>
